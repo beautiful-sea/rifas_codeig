@@ -1,0 +1,6 @@
+CRITICAL - 2022-09-28 13:19:15 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 35835832 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-28 13:20:24 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 35835832 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

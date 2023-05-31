@@ -1,0 +1,154 @@
+CRITICAL - 2022-08-15 13:02:50 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(434): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 434, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyAutoRaffle()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:08:01 --> Undefined index: type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:10:42 --> Undefined index: type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:10:44 --> Undefined index: type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:12:10 --> Undefined index: type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:12:11 --> Undefined index: type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:12:11 --> Undefined index: type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:12:12 --> Undefined index: type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:12:39 --> Undefined index: type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:12:39 --> Undefined index: type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:12:40 --> Undefined index: type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:12:40 --> Undefined index: type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:20:41 --> Undefined property: stdClass::$type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:20:47 --> Undefined property: stdClass::$type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:20:47 --> Undefined property: stdClass::$type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:20:49 --> Undefined property: stdClass::$type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:20:53 --> Undefined property: stdClass::$type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:24:45 --> Undefined property: stdClass::$type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:24:46 --> Undefined property: stdClass::$type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:24:46 --> Undefined property: stdClass::$type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:24:47 --> Undefined property: stdClass::$type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-15 13:24:47 --> Undefined property: stdClass::$type
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->update_order()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}

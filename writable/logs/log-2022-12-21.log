@@ -1,0 +1,530 @@
+CRITICAL - 2022-12-21 14:07:11 --> Undefined property: stdClass::$access_token
+#0 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(800): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/home2/h7sist27...', 800)
+#1 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 17:29:24 --> Attempt to read property "title" on null
+#0 /home2/h7sist27/app.rifandos.com.br/app/Views/backend/orders.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home2/h7sist27...', 69)
+#1 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(210): include('/home2/h7sist27...')
+#2 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/h7sist27/app.rifandos.com.br/system/Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(151): view('backend/orders', Array)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-21 17:32:48 --> Attempt to read property "title" on null
+#0 /home2/h7sist27/app.rifandos.com.br/app/Views/backend/orders.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home2/h7sist27...', 69)
+#1 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(210): include('/home2/h7sist27...')
+#2 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/h7sist27/app.rifandos.com.br/system/Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(151): view('backend/orders', Array)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-21 17:34:21 --> Attempt to read property "title" on null
+#0 /home2/h7sist27/app.rifandos.com.br/app/Views/backend/orders.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home2/h7sist27...', 69)
+#1 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(210): include('/home2/h7sist27...')
+#2 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/h7sist27/app.rifandos.com.br/system/Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(151): view('backend/orders', Array)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-21 17:42:39 --> Attempt to read property "title" on null
+#0 /home2/h7sist27/app.rifandos.com.br/app/Views/backend/orders.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home2/h7sist27...', 69)
+#1 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(210): include('/home2/h7sist27...')
+#2 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/h7sist27/app.rifandos.com.br/system/Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(151): view('backend/orders', Array)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-21 17:50:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 17:50:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 17:50:05 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(144): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-21 17:50:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 17:50:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 17:50:11 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(144): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-21 17:50:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 17:50:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 17:50:24 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(144): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-21 17:53:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 17:53:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 17:53:29 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(144): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-21 17:53:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 17:53:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 17:53:49 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(144): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-21 17:57:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 17:57:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 17:57:06 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(147): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-21 17:57:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 17:57:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 17:57:14 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(147): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-21 18:09:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 18:09:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 18:09:25 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(148): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-21 18:11:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 18:11:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `orders`.`id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 18:11:58 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(148): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-21 18:14:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 18:14:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `orders`.`id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 18:14:17 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(148): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-21 18:19:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 18:19:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `orders`.`id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 18:19:36 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(148): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-21 18:19:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 18:19:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `orders`.`id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 18:19:55 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(148): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-21 18:20:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR - 2022-12-21 18:20:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ORDER BY `orders`.`id` DESC
+ LIMIT 10' at line 5
+CRITICAL - 2022-12-21 18:20:40 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(148): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 18:23:40 --> Undefined variable $orders
+#0 /home2/h7sist27/app.rifandos.com.br/app/Views/backend/orders.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home2/h7sist27...', 53)
+#1 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(210): include('/home2/h7sist27...')
+#2 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/h7sist27/app.rifandos.com.br/system/Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(176): view('backend/orders', Array)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-21 18:24:24 --> Undefined variable $pager
+#0 /home2/h7sist27/app.rifandos.com.br/app/Views/backend/orders.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home2/h7sist27...', 108)
+#1 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(210): include('/home2/h7sist27...')
+#2 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/h7sist27/app.rifandos.com.br/system/Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(177): view('backend/orders', Array)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-21 18:24:25 --> Undefined variable $pager
+#0 /home2/h7sist27/app.rifandos.com.br/app/Views/backend/orders.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home2/h7sist27...', 108)
+#1 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(210): include('/home2/h7sist27...')
+#2 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/h7sist27/app.rifandos.com.br/system/Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(177): view('backend/orders', Array)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-21 18:25:29 --> Undefined variable $pager
+#0 /home2/h7sist27/app.rifandos.com.br/app/Views/backend/orders.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home2/h7sist27...', 108)
+#1 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(210): include('/home2/h7sist27...')
+#2 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/h7sist27/app.rifandos.com.br/system/Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(177): view('backend/orders', Array)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-21 18:25:33 --> Undefined variable $pager
+#0 /home2/h7sist27/app.rifandos.com.br/app/Views/backend/orders.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/home2/h7sist27...', 108)
+#1 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(210): include('/home2/h7sist27...')
+#2 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home2/h7sist27/app.rifandos.com.br/system/Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(177): view('backend/orders', Array)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-21 18:27:33 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-21 18:28:33 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-21 18:28:37 --> Attempt to read property "status" on null
+#0 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home2/h7sist27...', 66)
+#1 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 18:29:33 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-21 18:30:33 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(72): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-21 18:31:33 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(72): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-21 18:32:33 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(72): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-21 18:33:33 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(72): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-21 18:34:33 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(72): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-21 18:35:33 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(87): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-21 18:36:33 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(87): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-21 19:49:17 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(656): CodeIgniter\Model->update('4', Array)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(1343): CodeIgniter\BaseModel->save(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->settings()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-21 19:51:49 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(1346): CodeIgniter\Model->update('4', Array)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->settings()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 20:12:48 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(21): MercadoPago\Entity::find_by_id('52838624149')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 20:12:49 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(21): MercadoPago\Entity::find_by_id('52838624149')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 20:12:50 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(21): MercadoPago\Entity::find_by_id('52838624149')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 20:13:51 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(21): MercadoPago\Entity::find_by_id('52838624149')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 20:13:51 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(21): MercadoPago\Entity::find_by_id('52838624149')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 20:19:44 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(21): MercadoPago\Entity::find_by_id('52838901549')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 20:20:06 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(21): MercadoPago\Entity::find_by_id('52838901549')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 20:20:07 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(21): MercadoPago\Entity::find_by_id('52838901549')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 20:31:18 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(21): MercadoPago\Entity::find_by_id('52838624149')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 20:38:09 --> Attempt to read property "transaction_data" on null
+#0 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(761): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home2/h7sist27...', 761)
+#1 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 20:40:58 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(21): MercadoPago\Entity::find_by_id('52838901549')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 20:50:56 --> Attempt to read property "transaction_data" on null
+#0 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(761): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home2/h7sist27...', 761)
+#1 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 21:04:09 --> Attempt to read property "transaction_data" on null
+#0 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(777): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home2/h7sist27...', 777)
+#1 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-21 21:07:03 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(21): MercadoPago\Entity::find_by_id('52838624149')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-21 21:15:49 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(21): MercadoPago\Entity::find_by_id('52838901549')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}

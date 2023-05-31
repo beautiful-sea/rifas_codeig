@@ -1,0 +1,45 @@
+ERROR - 2022-11-16 10:23:12 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+ERROR - 2022-11-16 10:23:12 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2022-11-16 10:23:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#2 C:\xampp\htdocs\rifas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(26): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-16 10:23:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#2 C:\xampp\htdocs\rifas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(26): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-16 10:24:08 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2022-11-16 10:24:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `title`\n...', Array, false)
+#2 C:\xampp\htdocs\rifas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(26): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}

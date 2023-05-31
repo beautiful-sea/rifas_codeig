@@ -1,0 +1,147 @@
+CRITICAL - 2022-08-25 08:54:47 --> file_get_contents(data.json): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Home.php(22): file_get_contents('data.json')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-25 09:41:13 --> Trying to get property 'transaction_data' of non-object
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(689): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 689, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-25 09:59:37 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-08-25 10:03:14 --> Unknown column 'number' in 'where clause'
+CRITICAL - 2022-08-25 10:03:14 --> Unknown column 'number' in 'where clause'
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\rifas\app\Controllers\Home.php(41): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-25 10:07:12 --> array_column() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Home.php(58): array_column('number', Array)
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-25 10:08:18 --> syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-25 10:08:39 --> syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-25 10:09:16 --> syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-25 10:20:11 --> syntax error, unexpected '$pedidos' (T_VARIABLE)
+#0 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-25 10:22:34 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-25 10:25:35 --> Undefined variable: number
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-25 10:27:48 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-25 11:08:19 --> syntax error, unexpected ''reserved_at'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-25 11:13:36 --> Undefined variable: newNumbers
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 119, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-25 11:18:46 --> Undefined index: data_reserva
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 123, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-25 11:42:06 --> Trying to get property 'numbers' of non-object
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-25 12:45:51 --> unlink(C:\xampp\htdocs\rifas\writable\debugbar/debugbar_1661430220.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1661442347, 20)
+#3 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\rifas\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\rifas\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-25 12:46:03 --> unlink(C:\xampp\htdocs\rifas\writable\debugbar/debugbar_1661430242.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1661442359, 20)
+#3 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\rifas\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\rifas\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}

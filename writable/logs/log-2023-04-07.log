@@ -1,0 +1,111 @@
+CRITICAL - 2023-04-07 15:51:11 --> Too few arguments to function CodeIgniter\CLI\Console::__construct(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/spark on line 86 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/spark(86): CodeIgniter\CLI\Console->__construct()
+#1 {main}
+CRITICAL - 2023-04-07 16:30:28 --> Using $this when not in object context
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1089): CodeIgniter\BaseModel::find('24')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('24')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-07 16:35:34 --> App\Controllers\Dashboard::gerarpdf(): Failed opening required '/home/rifadaho/osincriveissorteios.com.br/app/ThirdParty/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-07 16:44:08 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/rifadaho/osincriveissorteios.com.br/app/ThirdParty/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-07 16:49:26 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/rifadaho/osincriveissorteios.com.br/app/ThirdParty/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-07 16:58:51 --> Class 'BaseController' not found
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#7 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-07 16:59:31 --> Class 'BaseController' not found
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#7 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-07 16:59:33 --> Class 'BaseController' not found
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#7 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-07 17:04:19 --> Class 'BaseController' not found
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#7 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-07 17:13:34 --> Class 'App\Controllers\Dompdf\Dompdf' not found
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('24')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 17:14:05 --> Class 'App\Controllers\Dompdf\Dompdf' not found
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('24')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 17:20:20 --> Class 'App\Controllers\Dompdf\Dompdf' not found
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('24')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 17:20:49 --> Class 'App\Controllers\Dompdf\Dompdf' not found
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('24')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 17:22:19 --> Class 'Dompdf\Dompdf\Dompdf' not found
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('24')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 17:22:41 --> Class 'Dompdf\Dompdf\Dompdf' not found
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('24')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 17:27:08 --> App\Controllers\Dashboard::gerarpdf(): Failed opening required '/home/rifadaho/osincriveissorteios.com.br/app/ThirdParty/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-07 17:27:34 --> App\Controllers\Dashboard::gerarpdf(): Failed opening required '/home/rifadaho/osincriveissorteios.com.br/app/ThirdParty/dompdf/src' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-07 17:27:36 --> App\Controllers\Dashboard::gerarpdf(): Failed opening required '/home/rifadaho/osincriveissorteios.com.br/app/ThirdParty/dompdf/src' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-07 17:37:49 --> App\Controllers\Dashboard::gerarpdf(): Failed opening required '/home/rifadaho/osincriveissorteios.com.br/app/ThirdParty/dompdf/src' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

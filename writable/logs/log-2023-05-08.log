@@ -1,0 +1,214 @@
+CRITICAL - 2023-05-08 10:35:52 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 10:36:42 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-05-08 10:39:27 --> Column 'description' in where clause is ambiguous
+ERROR - 2023-05-08 10:39:27 --> Column 'description' in where clause is ambiguous
+CRITICAL - 2023-05-08 10:39:27 --> Call to a member function getResult() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(434): CodeIgniter\BaseModel->paginate(10)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-05-08 10:39:27 --> Column 'description' in where clause is ambiguous
+ERROR - 2023-05-08 10:39:27 --> Column 'description' in where clause is ambiguous
+CRITICAL - 2023-05-08 10:39:27 --> Call to a member function getResult() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(434): CodeIgniter\BaseModel->paginate(10)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-08 10:54:58 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 10:54:58 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 10:55:59 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 10:55:59 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 10:56:00 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 10:56:00 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:10:55 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:10:55 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:10:56 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:10:56 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:11:56 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:11:56 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:15:46 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:16:12 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:30:12 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:30:49 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:50:33 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 11:51:03 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 12:05:09 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 12:05:19 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 17:55:49 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 17:56:14 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 18:10:34 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 18:10:44 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 22:28:36 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 22:29:11 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 22:35:49 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 22:36:41 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 22:42:36 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-08 22:44:00 --> Too few arguments to function App\Controllers\Api::confirmPaymentCustomer(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 832 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Api->confirmPaymentCustomer()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}

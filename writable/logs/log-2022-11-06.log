@@ -1,0 +1,34 @@
+CRITICAL - 2022-11-06 10:03:48 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\rifas\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\rifas\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\rifas\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-11-06 14:14:20 --> Unknown column 'name' in 'field list'
+CRITICAL - 2022-11-06 14:14:20 --> Unknown column 'name' in 'field list'
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(1063): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->winners()
+#8 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-06 14:14:41 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\backend\winners.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/winners', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(1068): view('backend/winners', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->winners()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}

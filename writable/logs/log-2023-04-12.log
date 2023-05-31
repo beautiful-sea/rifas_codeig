@@ -1,0 +1,353 @@
+CRITICAL - 2023-04-12 11:59:32 --> Arquivo inválido: frontend/partial/header.php
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/partia...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(226): view('frontend/partia...', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('26-bbbvcdebvc')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-12 12:00:41 --> Arquivo inválido: frontend/partial/header.php
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/partia...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(226): view('frontend/partia...', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('26-bbbvcdebvc')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-12 12:04:13 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-04-12 12:05:58 --> Column 'id' in field list is ambiguous
+CRITICAL - 2023-04-12 12:05:58 --> Call to a member function getFirstRow() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(546): CodeIgniter\BaseModel->first()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-12 12:06:41 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 12:06:43 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 12:07:40 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 12:07:42 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 12:53:38 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 12:56:19 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 12:56:26 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 12:56:29 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 13:06:54 --> Call to a member function library() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 13:13:00 --> Too few arguments to function App\Controllers\Dashboard::__construct(), 0 passed in /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php on line 809 and exactly 1 expected
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 13:13:48 --> Call to a member function library() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 13:15:37 --> Call to a member function library() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 13:20:50 --> Arquivo inválido: pdf.php
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('pdf', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1180): view('pdf', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-12 13:20:57 --> Arquivo inválido: pdf.php
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('pdf', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1180): view('pdf', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-12 13:21:27 --> Arquivo inválido: gerarpdf.php
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('gerarpdf.php')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('gerarpdf', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1180): view('gerarpdf', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-12 15:08:29 --> Arquivo inválido: pdf.php
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('pdf', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1174): view('pdf')
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-12 15:52:42 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-12 15:53:22 --> Call to undefined method App\Controllers\BaseController::__contruct()
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 15:53:50 --> Cannot call constructor
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 15:53:52 --> Cannot call constructor
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 15:56:09 --> Cannot call constructor
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 15:57:26 --> Cannot call constructor
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 15:57:27 --> Cannot call constructor
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 15:57:28 --> Cannot call constructor
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 15:57:32 --> Cannot call constructor
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 15:58:02 --> Call to a member function library() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 15:58:04 --> Call to a member function library() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 15:58:06 --> Call to a member function library() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 15:58:16 --> Call to a member function library() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 16:05:00 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-12 16:09:20 --> Call to a member function view() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 16:11:28 --> Call to a member function view() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 16:18:53 --> Call to a member function library() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 16:21:00 --> Incorrect output destination E
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1194): Mpdf\Mpdf->Output('listRifa.pdf', 'E')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-12 16:27:39 --> syntax error, unexpected 'selected' (T_STRING)
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-12 16:35:01 --> Call to a member function view() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 16:38:08 --> Arquivo inválido: pedidos_view.php
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pedidos_view.ph...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('pedidos_view', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1171): view('pedidos_view', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-12 16:38:37 --> Call to a member function render() on string
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 16:39:44 --> Arquivo inválido: pdf.php
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('pdf', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1171): view('pdf', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-12 16:40:29 --> Arquivo inválido: pdf.php
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf.php')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('pdf', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1171): view('pdf', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-12 19:39:14 --> syntax error, unexpected 'nome' (T_STRING)
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-12 19:57:42 --> Call to a member function view() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 19:58:52 --> Call to a member function library() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 20:00:43 --> Cannot call constructor
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 20:01:12 --> Call to a member function library() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 20:02:01 --> Call to a member function libraries() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-12 20:02:43 --> Call to a member function Libraries() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}

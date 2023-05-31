@@ -1,0 +1,95 @@
+ERROR - 2022-08-12 09:07:11 --> MySQL server has gone away
+CRITICAL - 2022-08-12 09:07:11 --> MySQL server has gone away
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(347): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-08-12 09:10:08 --> MySQL server has gone away
+CRITICAL - 2022-08-12 09:10:08 --> MySQL server has gone away
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(347): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-08-12 09:10:47 --> MySQL server has gone away
+CRITICAL - 2022-08-12 09:10:47 --> MySQL server has gone away
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(347): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-08-12 09:11:44 --> Got a packet bigger than 'max_allowed_packet' bytes
+CRITICAL - 2022-08-12 09:11:44 --> Got a packet bigger than 'max_allowed_packet' bytes
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(347): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-08-12 09:58:36 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-12 10:05:07 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-12 12:48:26 --> Undefined variable: orderModel
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->orders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 12:48:40 --> Call to undefined method App\Models\OrderModel::lastQuery
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(67): CodeIgniter\Model->__call('lastQuery', Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->orders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 13:12:53 --> Undefined variable: categories
+#0 C:\xampp\htdocs\rifas\app\Views\backend\add_raffle.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_raf...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(364): view('backend/add_raf...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}

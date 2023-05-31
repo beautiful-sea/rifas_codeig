@@ -1,0 +1,243 @@
+CRITICAL - 2022-05-14 05:32:25 --> Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$method
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 06:07:38 --> Undefined property: App\Controllers\Home::$input
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 06:24:36 --> min_lenght is not a valid rule.
+#0 C:\xampp\htdocs\rifas\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+#1 C:\xampp\htdocs\rifas\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('name', 'name', 'Hiago de Olivei...', Array, Array)
+#2 C:\xampp\htdocs\rifas\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(96): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 07:58:38 --> Call to undefined function App\Controllers\typeof()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 07:58:46 --> Call to undefined function App\Controllers\typeOf()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 08:12:42 --> Object of class DateTime could not be converted to string
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 10:39:52 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 10:39:55 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 12:22:31 --> Call to a member function insert() on array
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 12:23:13 --> Call to a member function save() on array
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 13:12:17 --> Creating default object from empty value
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'C:\\xampp\\htdocs...', 200, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-14 13:13:28 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-05-14 13:13:28 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Home.php(194): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-14 13:25:54 --> Undefined property: stdClass::$quantity
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(194): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 194, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 13:27:37 --> Undefined property: stdClass::$quantity
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(194): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 194, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 13:27:58 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 220, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Home.php(220): json_decode(Array)
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-14 13:28:21 --> Não há dados para update.
+#0 C:\xampp\htdocs\rifas\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\rifas\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(220): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 13:34:04 --> Não há dados para update.
+#0 C:\xampp\htdocs\rifas\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\rifas\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(220): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 13:40:17 --> Não há dados para update.
+#0 C:\xampp\htdocs\rifas\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\rifas\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(225): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 13:40:43 --> Não há dados para update.
+#0 C:\xampp\htdocs\rifas\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\rifas\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(227): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 13:42:13 --> Não há dados para update.
+#0 C:\xampp\htdocs\rifas\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\rifas\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(224): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 13:45:10 --> Não há dados para update.
+#0 C:\xampp\htdocs\rifas\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\rifas\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(224): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 13:45:14 --> Não há dados para update.
+#0 C:\xampp\htdocs\rifas\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\rifas\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(224): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 14:16:06 --> Undefined variable: myString
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\raffle_manual.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/raffle...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(48): view('frontend/raffle...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-dez-n\xC3\xBA...')
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 14:16:14 --> Undefined variable: myString
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\raffle_manual.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/raffle...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(48): view('frontend/raffle...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-dez-n\xC3\xBA...')
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 14:17:55 --> DateTime::createFromFormat() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'DateTime::creat...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\rifas\app\Views\frontend\raffle_manual.php(35): DateTime::createFromFormat('0000-00-00 00:0...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/raffle...', Array, true)
+#5 C:\xampp\htdocs\rifas\app\Controllers\Home.php(48): view('frontend/raffle...', Array)
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-dez-n\xC3\xBA...')
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-14 14:22:40 --> Undefined variable: title
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\partials\header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(261): view('frontend/partia...')
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->checkout()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 14:32:16 --> Arquivo inválido: frontend/partials/checkout.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/partia...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Home.php(260): view('frontend/partia...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->checkout()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 14:32:37 --> Arquivo inválido: frontend/partials/checkout.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/partia...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Home.php(260): view('frontend/partia...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->checkout()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

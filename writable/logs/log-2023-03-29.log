@@ -1,0 +1,144 @@
+CRITICAL - 2023-03-29 09:42:58 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 09:43:09 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 09:43:18 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 09:43:19 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 09:43:24 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 09:43:25 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 09:44:59 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 09:45:01 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 09:49:38 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 18:28:53 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 18:29:29 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 18:29:52 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 18:29:54 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 18:30:11 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 18:30:32 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 18:30:35 --> syntax error, unexpected end of file
+#0 /home/rifadaho/osincriveissorteios.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(101): view('frontend/home', Array)
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}

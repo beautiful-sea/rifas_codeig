@@ -1,0 +1,456 @@
+CRITICAL - 2022-05-22 08:06:24 --> Class 'App\Models\RequestModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myRequests()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 08:17:16 --> Class 'App\Controllers\OrderModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 08:17:35 --> Undefined variable: requests
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(300): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 10:02:34 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getMethod
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 10:03:19 --> Undefined variable: active
+#0 C:\xampp\htdocs\rifas\app\Views\backend\partials\header.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(153): view('backend/partial...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 10:03:20 --> Undefined variable: active
+#0 C:\xampp\htdocs\rifas\app\Views\backend\partials\header.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(153): view('backend/partial...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 10:03:20 --> Undefined variable: active
+#0 C:\xampp\htdocs\rifas\app\Views\backend\partials\header.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(153): view('backend/partial...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 10:03:20 --> Undefined variable: active
+#0 C:\xampp\htdocs\rifas\app\Views\backend\partials\header.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(153): view('backend/partial...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 10:03:20 --> Undefined variable: active
+#0 C:\xampp\htdocs\rifas\app\Views\backend\partials\header.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(153): view('backend/partial...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 10:03:21 --> Undefined variable: active
+#0 C:\xampp\htdocs\rifas\app\Views\backend\partials\header.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(153): view('backend/partial...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 10:03:21 --> Undefined variable: active
+#0 C:\xampp\htdocs\rifas\app\Views\backend\partials\header.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(153): view('backend/partial...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 10:03:21 --> Undefined variable: active
+#0 C:\xampp\htdocs\rifas\app\Views\backend\partials\header.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(153): view('backend/partial...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 10:03:21 --> Undefined variable: active
+#0 C:\xampp\htdocs\rifas\app\Views\backend\partials\header.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(153): view('backend/partial...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 10:03:22 --> Undefined variable: active
+#0 C:\xampp\htdocs\rifas\app\Views\backend\partials\header.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(153): view('backend/partial...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 10:03:22 --> Undefined variable: active
+#0 C:\xampp\htdocs\rifas\app\Views\backend\partials\header.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(153): view('backend/partial...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 10:03:54 --> Arquivo inválido: backend/add_rafle.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/add_raf...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_raf...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(155): view('backend/add_raf...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 10:03:57 --> Arquivo inválido: backend/add_rafle.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/add_raf...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_raf...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(155): view('backend/add_raf...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 10:04:18 --> Arquivo inválido: backend/add_rafle.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/add_raf...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_raf...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(155): view('backend/add_raf...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 10:04:19 --> Arquivo inválido: backend/add_rafle.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/add_raf...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_raf...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(155): view('backend/add_raf...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 10:04:19 --> Arquivo inválido: backend/add_rafle.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/add_raf...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_raf...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(155): view('backend/add_raf...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 10:04:20 --> Arquivo inválido: backend/add_rafle.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/add_raf...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_raf...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(155): view('backend/add_raf...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 10:04:20 --> Arquivo inválido: backend/add_rafle.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/add_raf...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_raf...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(155): view('backend/add_raf...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 10:04:20 --> Arquivo inválido: backend/add_rafle.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/add_raf...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_raf...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(155): view('backend/add_raf...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 10:04:20 --> Arquivo inválido: backend/add_rafle.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/add_raf...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/add_raf...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(155): view('backend/add_raf...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 11:24:03 --> Undefined variable: raffles
+#0 C:\xampp\htdocs\rifas\app\Views\backend\categories.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/categor...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(204): view('backend/categor...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->categories()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 12:24:14 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(36): App\Models\RafflesModel->__construct()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 12:26:15 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(36): App\Models\RafflesModel->__construct()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-22 13:44:05 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:07 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:07 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:08 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:08 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:08 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:08 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:09 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:09 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:09 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:09 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:10 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:10 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:10 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:10 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:11 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:11 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:11 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:11 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:12 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:12 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:44:12 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:45:03 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 13:45:24 --> Class 'App\Models\RaffleModel' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-22 14:05:22 --> Undefined variable: t
+#0 C:\xampp\htdocs\rifas\app\Views\backend\sales.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/sales', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(219): view('backend/sales', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->sales()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 14:06:35 --> Undefined variable: t
+#0 C:\xampp\htdocs\rifas\app\Views\backend\sales.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/sales', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(219): view('backend/sales', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->sales()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 14:06:36 --> Undefined variable: t
+#0 C:\xampp\htdocs\rifas\app\Views\backend\sales.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/sales', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(219): view('backend/sales', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->sales()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 14:07:01 --> Undefined variable: t
+#0 C:\xampp\htdocs\rifas\app\Views\backend\sales.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/sales', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(219): view('backend/sales', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->sales()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-22 14:07:02 --> Undefined variable: t
+#0 C:\xampp\htdocs\rifas\app\Views\backend\sales.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/sales', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(219): view('backend/sales', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->sales()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

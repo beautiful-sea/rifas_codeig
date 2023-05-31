@@ -1,0 +1,157 @@
+ERROR - 2022-05-12 06:54:50 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2022-05-12 06:54:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#2 C:\xampp\htdocs\rifas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-12 06:54:56 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2022-05-12 06:54:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `t...', Array, false)
+#2 C:\xampp\htdocs\rifas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-12 06:56:48 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(21): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-12 06:57:03 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(21): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-12 06:57:05 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(21): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-12 07:11:22 --> syntax error, unexpected '?>', expecting ')'
+#0 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Home.php(21): view('frontend/home', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 07:11:27 --> syntax error, unexpected '?>', expecting ')'
+#0 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Home.php(21): view('frontend/home', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 07:26:46 --> Undefined variable: title
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\partials\header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(37): view('frontend/partia...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('testando-a-rifa')
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-12 07:28:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND `raffles`.`deleted_at` IS NULL' at line 3
+CRITICAL - 2022-05-12 07:28:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND `raffles`.`deleted_at` IS NULL' at line 3
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\rifas\app\Controllers\Home.php(35): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('testando-a-rifa')
+#8 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-12 07:29:55 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('testando-a-rifa')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-12 07:30:10 --> Invalid file: frontend/raffle.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/raffle...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/raffle', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Home.php(43): view('frontend/raffle', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('testando-a-rifa')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-12 08:25:21 --> Undefined property: stdClass::$date_draw
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\raffle.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/raffle', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(43): view('frontend/raffle', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('testando-a-rifa')
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-12 13:04:13 --> unlink(C:\xampp\htdocs\rifas\writable\debugbar/debugbar_1652376642.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1652378647, 20)
+#3 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\rifas\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\rifas\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-12 13:04:27 --> unlink(C:\xampp\htdocs\rifas\writable\debugbar/debugbar_1652376745.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1652378664, 20)
+#3 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\rifas\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\rifas\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

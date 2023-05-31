@@ -1,0 +1,32 @@
+ERROR - 2023-01-19 01:19:52 --> Column 'description' in where clause is ambiguous
+ERROR - 2023-01-19 01:19:52 --> Column 'description' in where clause is ambiguous
+CRITICAL - 2023-01-19 01:19:52 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Dashboard.php(361): CodeIgniter\BaseModel->paginate(10)
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-19 07:06:06 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-19 07:07:17 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-19 07:08:26 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-19 13:14:41 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', '/home2/h7sist27...', 227, Array)
+#1 /home2/h7sist27/app.rifandos.com.br/app/Views/frontend/raffle_auto.php(227): number_format('', 2, ',', '.')
+#2 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(210): include('/home2/h7sist27...')
+#3 /home2/h7sist27/app.rifandos.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home2/h7sist27/app.rifandos.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/raffle...', Array, true)
+#5 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(147): view('frontend/raffle...', Array)
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('54-um-salrio-mn...')
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}

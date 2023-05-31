@@ -1,0 +1,31 @@
+.container-lista {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 200px;
+    
+    
+}
+.total-num-rifa {
+    background-color: #3498db;
+    width: 150px;
+    padding: 5px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.card-total-pagos {
+    background-color: #0d9187;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.card-total-pendentes {
+    background-color: #b24848;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}

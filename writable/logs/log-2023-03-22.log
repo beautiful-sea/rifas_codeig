@@ -1,0 +1,586 @@
+CRITICAL - 2023-03-22 00:02:28 --> Class 'App\Controllers\MercadoPago\Preference' not found
+#0 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#1 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-22 00:02:38 --> Class 'App\Controllers\MercadoPago\Item' not found
+#0 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#1 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-22 13:57:04 --> Class 'App\Controllers\MercadoPago\SDK' not found
+#0 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#1 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-22 13:57:21 --> Class 'App\Controllers\MercadoPago\SDK' not found
+#0 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#1 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-22 16:06:42 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1312267806')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:06:42 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1312267806')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:14:09 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1313508077')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:14:10 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1313508077')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:14:31 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1312267962')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:14:31 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1312267962')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:14:59 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1312267972')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:15:00 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1312267972')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:15:14 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1313508097')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:15:14 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1313508097')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:17:24 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1312268020')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:17:24 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1312268020')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:26:30 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1312267806')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:30:13 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1313508077')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:30:36 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1312267962')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:31:13 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1312267972')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:35:23 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1312268020')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 16:35:50 --> Invalid token
+#0 /home3/leodelivery/mestredoscript.online/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#1 /home3/leodelivery/mestredoscript.online/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('1313508097')
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#3 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 19:48:40 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php(28): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-22 19:48:42 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php(28): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-03-22 19:49:43 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:43 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:49 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:50 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:50 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:50 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:51 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:51 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:51 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:51 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:52 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:52 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:52 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:53 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:53 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:49:57 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:49:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:49:57 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-03-22 19:50:19 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:50:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-22 19:50:19 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php:32) in /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/bgkdfmas/...', 112, Array)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Debug/Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-22 19:50:36 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Config/Events.php(28): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-03-22 19:52:18 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:52:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-22 19:52:21 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:52:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-22 19:52:34 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:52:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-22 19:52:36 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-22 19:52:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-22 19:57:10 --> Table 'bgkdfmas_rifa.raffles' doesn't exist
+CRITICAL - 2023-03-22 19:57:10 --> Call to a member function getResult() on bool
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-22 22:07:06 --> syntax error, unexpected '*', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/Common.php(1089): CodeIgniter\View\View->render('frontend/raffle...', Array, true)
+#2 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/app/Controllers/Home.php(176): view('frontend/raffle...', Array)
+#3 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('2-pix-de-r-20-0...')
+#4 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/bgkdfmas/rifaonline.wdmsistemas.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}

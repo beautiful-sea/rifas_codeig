@@ -1,0 +1,813 @@
+ERROR - 2023-03-21 00:23:02 --> Table 'nandomkt_rifanovo.raffles' doesn't exist
+CRITICAL - 2023-03-21 00:23:02 --> Call to a member function getFirstRow() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home3/nandomkt/public_html/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->raffle('OSPKing.php')
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:23:12 --> Table 'nandomkt_rifanovo.raffles' doesn't exist
+CRITICAL - 2023-03-21 00:23:12 --> Call to a member function getFirstRow() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home3/nandomkt/public_html/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->raffle('cdnjs.cloudflar...', 'ajax', 'libs', 'font-awesome', '5.15.4', 'css', 'all.min.css')
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:23:12 --> Table 'nandomkt_rifanovo.raffles' doesn't exist
+CRITICAL - 2023-03-21 00:23:12 --> Call to a member function getFirstRow() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home3/nandomkt/public_html/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->raffle('style.css')
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:23:12 --> Table 'nandomkt_rifanovo.raffles' doesn't exist
+CRITICAL - 2023-03-21 00:23:12 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#1 /home3/nandomkt/public_html/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:23:13 --> Table 'nandomkt_rifanovo.raffles' doesn't exist
+CRITICAL - 2023-03-21 00:23:13 --> Call to a member function getFirstRow() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home3/nandomkt/public_html/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:29:35 --> Unknown column 'password' in 'field list'
+ERROR - 2023-03-21 00:29:35 --> Unknown column 'is_admin' in 'field list'
+CRITICAL - 2023-03-21 00:29:35 --> Call to a member function getFirstRow() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home3/nandomkt/public_html/app/Controllers/Auth.php(100): CodeIgniter\BaseModel->first()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:30:25 --> Unknown column 'password' in 'field list'
+ERROR - 2023-03-21 00:30:25 --> Unknown column 'is_admin' in 'field list'
+CRITICAL - 2023-03-21 00:30:25 --> Call to a member function getFirstRow() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home3/nandomkt/public_html/app/Controllers/Auth.php(100): CodeIgniter\BaseModel->first()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:52:26 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-03-21 00:52:26 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(103): CodeIgniter\BaseModel->findAll()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:52:51 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2023-03-21 00:52:51 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-03-21 00:52:51 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home3/nandomkt/public_html/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(360): CodeIgniter\BaseModel->paginate(10)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-03-21 00:53:05 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2023-03-21 00:53:05 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-03-21 00:53:05 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home3/nandomkt/public_html/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(360): CodeIgniter\BaseModel->paginate(10)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-03-21 00:58:22 --> Table 'nandomkt_rifanovo.categories' doesn't exist
+CRITICAL - 2023-03-21 00:58:22 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(359): CodeIgniter\BaseModel->findAll()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:58:24 --> Table 'nandomkt_rifanovo.categories' doesn't exist
+CRITICAL - 2023-03-21 00:58:24 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home3/nandomkt/public_html/app/Controllers/Home.php(55): CodeIgniter\BaseModel->findAll()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:58:31 --> Table 'nandomkt_rifanovo.categories' doesn't exist
+CRITICAL - 2023-03-21 00:58:31 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(359): CodeIgniter\BaseModel->findAll()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:58:31 --> Table 'nandomkt_rifanovo.categories' doesn't exist
+CRITICAL - 2023-03-21 00:58:31 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home3/nandomkt/public_html/app/Controllers/Home.php(55): CodeIgniter\BaseModel->findAll()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:58:57 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+ERROR - 2023-03-21 00:58:57 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+CRITICAL - 2023-03-21 00:58:57 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home3/nandomkt/public_html/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(141): CodeIgniter\BaseModel->paginate(10)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-03-21 00:58:58 --> Table 'nandomkt_rifanovo.categories' doesn't exist
+CRITICAL - 2023-03-21 00:58:58 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home3/nandomkt/public_html/app/Controllers/Home.php(55): CodeIgniter\BaseModel->findAll()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:59:28 --> Table 'nandomkt_rifanovo.categories' doesn't exist
+CRITICAL - 2023-03-21 00:59:28 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home3/nandomkt/public_html/app/Controllers/Home.php(55): CodeIgniter\BaseModel->findAll()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:59:29 --> Table 'nandomkt_rifanovo.categories' doesn't exist
+CRITICAL - 2023-03-21 00:59:29 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home3/nandomkt/public_html/app/Controllers/Home.php(55): CodeIgniter\BaseModel->findAll()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:59:31 --> Table 'nandomkt_rifanovo.categories' doesn't exist
+CRITICAL - 2023-03-21 00:59:31 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home3/nandomkt/public_html/app/Controllers/Home.php(55): CodeIgniter\BaseModel->findAll()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 00:59:31 --> Table 'nandomkt_rifanovo.categories' doesn't exist
+CRITICAL - 2023-03-21 00:59:31 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home3/nandomkt/public_html/app/Controllers/Home.php(55): CodeIgniter\BaseModel->findAll()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 01:01:44 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+ERROR - 2023-03-21 01:01:44 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+CRITICAL - 2023-03-21 01:01:44 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home3/nandomkt/public_html/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(141): CodeIgniter\BaseModel->paginate(10)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-03-21 01:01:47 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+ERROR - 2023-03-21 01:01:47 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+CRITICAL - 2023-03-21 01:01:47 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home3/nandomkt/public_html/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(141): CodeIgniter\BaseModel->paginate(10)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-03-21 01:02:08 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+ERROR - 2023-03-21 01:02:08 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+CRITICAL - 2023-03-21 01:02:08 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home3/nandomkt/public_html/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(141): CodeIgniter\BaseModel->paginate(10)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-03-21 01:02:10 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+ERROR - 2023-03-21 01:02:10 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+CRITICAL - 2023-03-21 01:02:10 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home3/nandomkt/public_html/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(141): CodeIgniter\BaseModel->paginate(10)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-03-21 01:02:31 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+ERROR - 2023-03-21 01:02:31 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+CRITICAL - 2023-03-21 01:02:31 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home3/nandomkt/public_html/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(141): CodeIgniter\BaseModel->paginate(10)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-03-21 01:03:17 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+ERROR - 2023-03-21 01:03:17 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+CRITICAL - 2023-03-21 01:03:17 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home3/nandomkt/public_html/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(141): CodeIgniter\BaseModel->paginate(10)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-03-21 01:03:19 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+CRITICAL - 2023-03-21 01:03:19 --> Call to a member function getFirstRow() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(197): CodeIgniter\BaseModel->first()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 01:04:10 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+ERROR - 2023-03-21 01:04:10 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+CRITICAL - 2023-03-21 01:04:10 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home3/nandomkt/public_html/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(141): CodeIgniter\BaseModel->paginate(10)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-03-21 01:04:15 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+ERROR - 2023-03-21 01:04:15 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+CRITICAL - 2023-03-21 01:04:15 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home3/nandomkt/public_html/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(141): CodeIgniter\BaseModel->paginate(10)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-03-21 01:04:19 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+CRITICAL - 2023-03-21 01:04:19 --> Call to a member function getFirstRow() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(197): CodeIgniter\BaseModel->first()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-21 01:05:05 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+ERROR - 2023-03-21 01:05:05 --> Table 'nandomkt_rifanovo.customers' doesn't exist
+CRITICAL - 2023-03-21 01:05:05 --> Call to a member function getResult() on bool
+#0 /home3/nandomkt/public_html/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 /home3/nandomkt/public_html/system/BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#2 /home3/nandomkt/public_html/app/Controllers/Dashboard.php(141): CodeIgniter\BaseModel->paginate(10)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-21 01:52:50 --> Attempt to read property "slug" on null
+#0 /home3/nandomkt/public_html/app/Views/frontend/home.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home3/nandomkt...', 138)
+#1 /home3/nandomkt/public_html/system/View/View.php(210): include('/home3/nandomkt...')
+#2 /home3/nandomkt/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/nandomkt/public_html/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 /home3/nandomkt/public_html/app/Controllers/Home.php(68): view('frontend/home', Array)
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-21 01:53:06 --> Attempt to read property "slug" on null
+#0 /home3/nandomkt/public_html/app/Views/frontend/home.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home3/nandomkt...', 138)
+#1 /home3/nandomkt/public_html/system/View/View.php(210): include('/home3/nandomkt...')
+#2 /home3/nandomkt/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/nandomkt/public_html/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 /home3/nandomkt/public_html/app/Controllers/Home.php(68): view('frontend/home', Array)
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-21 01:53:08 --> Attempt to read property "slug" on null
+#0 /home3/nandomkt/public_html/app/Views/frontend/home.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home3/nandomkt...', 138)
+#1 /home3/nandomkt/public_html/system/View/View.php(210): include('/home3/nandomkt...')
+#2 /home3/nandomkt/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/nandomkt/public_html/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 /home3/nandomkt/public_html/app/Controllers/Home.php(68): view('frontend/home', Array)
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-21 01:54:22 --> Attempt to read property "slug" on null
+#0 /home3/nandomkt/public_html/app/Views/frontend/home.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home3/nandomkt...', 138)
+#1 /home3/nandomkt/public_html/system/View/View.php(210): include('/home3/nandomkt...')
+#2 /home3/nandomkt/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/nandomkt/public_html/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 /home3/nandomkt/public_html/app/Controllers/Home.php(68): view('frontend/home', Array)
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-21 01:57:23 --> Attempt to read property "slug" on null
+#0 /home3/nandomkt/public_html/app/Views/frontend/home.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/home3/nandomkt...', 138)
+#1 /home3/nandomkt/public_html/system/View/View.php(210): include('/home3/nandomkt...')
+#2 /home3/nandomkt/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/nandomkt/public_html/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 /home3/nandomkt/public_html/app/Controllers/Home.php(68): view('frontend/home', Array)
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-21 02:04:31 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 /home3/nandomkt/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home3/nandomkt/public_html/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home3/nandomkt/public_html/app/Controllers/Home.php(68): view('frontend/home', Array)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-21 02:05:47 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 /home3/nandomkt/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home3/nandomkt/public_html/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home3/nandomkt/public_html/app/Controllers/Home.php(68): view('frontend/home', Array)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-21 02:08:08 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 /home3/nandomkt/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home3/nandomkt/public_html/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home3/nandomkt/public_html/app/Controllers/Home.php(68): view('frontend/home', Array)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-21 02:09:14 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 /home3/nandomkt/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home3/nandomkt/public_html/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home3/nandomkt/public_html/app/Controllers/Home.php(68): view('frontend/home', Array)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-21 02:09:16 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 /home3/nandomkt/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home3/nandomkt/public_html/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home3/nandomkt/public_html/app/Controllers/Home.php(68): view('frontend/home', Array)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-21 02:09:18 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 /home3/nandomkt/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home3/nandomkt/public_html/system/Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#2 /home3/nandomkt/public_html/app/Controllers/Home.php(68): view('frontend/home', Array)
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-21 02:35:17 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-21 16:40:27 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:40:30 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:40:37 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:40:37 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:40:44 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:40:45 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:40:46 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:40:46 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:40:47 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:40:47 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:40:50 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:41:35 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:42:25 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:01 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:03 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:03 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:03 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:03 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:03 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:04 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:04 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:04 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:04 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:04 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:04 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:05 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:05 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:05 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:05 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:05 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:05 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:05 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:06 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:06 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:06 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:06 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 16:44:06 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 17:07:34 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::previous_url()
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 17:08:29 --> Call to a member function previous_url() on null
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 17:09:28 --> Call to a member function previous_url() on null
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 17:09:30 --> Call to a member function previous_url() on null
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 17:14:05 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nandomkt...')
+#1 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-21 17:14:05 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nandomkt...')
+#1 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-21 17:21:51 --> Creating default object from empty value
+#0 /home3/nandomkt/public_html/app/Controllers/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home3/nandomkt...', 78, Array)
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 17:21:52 --> Creating default object from empty value
+#0 /home3/nandomkt/public_html/app/Controllers/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home3/nandomkt...', 78, Array)
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 17:21:55 --> Creating default object from empty value
+#0 /home3/nandomkt/public_html/app/Controllers/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home3/nandomkt...', 78, Array)
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 17:21:56 --> Creating default object from empty value
+#0 /home3/nandomkt/public_html/app/Controllers/Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home3/nandomkt...', 78, Array)
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 17:24:04 --> Creating default object from empty value
+#0 /home3/nandomkt/public_html/app/Controllers/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home3/nandomkt...', 79, Array)
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 17:24:07 --> Creating default object from empty value
+#0 /home3/nandomkt/public_html/app/Controllers/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home3/nandomkt...', 79, Array)
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 17:26:54 --> Creating default object from empty value
+#0 /home3/nandomkt/public_html/app/Controllers/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home3/nandomkt...', 79, Array)
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 17:26:55 --> Creating default object from empty value
+#0 /home3/nandomkt/public_html/app/Controllers/Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', '/home3/nandomkt...', 79, Array)
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-21 17:30:03 --> syntax error, unexpected '}'
+#0 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nandomkt...')
+#1 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-21 17:30:04 --> syntax error, unexpected '}'
+#0 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nandomkt...')
+#1 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-21 17:30:06 --> syntax error, unexpected '}'
+#0 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nandomkt...')
+#1 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-21 17:30:07 --> syntax error, unexpected '}'
+#0 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nandomkt...')
+#1 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-21 17:30:07 --> syntax error, unexpected '}'
+#0 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home3/nandomkt...')
+#1 /home3/nandomkt/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home3/nandomkt/public_html/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home3/nandomkt/public_html/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-21 17:54:36 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 17:54:39 --> Cannot use object of type stdClass as array
+#0 /home3/nandomkt/public_html/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home3/nandomkt/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home3/nandomkt/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/nandomkt/public_html/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 22:56:16 --> Class 'App\Controllers\MercadoPago\Payer' not found
+#0 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#1 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-21 23:13:44 --> Class 'App\Controllers\MercadoPago\Payment' not found
+#0 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#1 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home3/leodelivery/mestredoscript.online/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/leodelivery/mestredoscript.online/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}

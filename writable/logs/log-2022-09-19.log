@@ -1,0 +1,147 @@
+CRITICAL - 2022-09-19 23:24:02 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\rifas\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\rifas\index.php(44): require('C:\\xampp\\htdocs...')
+#2 {main}
+ERROR - 2022-09-19 18:39:26 --> MySQL server has gone away
+CRITICAL - 2022-09-19 18:39:26 --> MySQL server has gone away
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(449): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-19 18:39:33 --> MySQL server has gone away
+CRITICAL - 2022-09-19 18:39:33 --> MySQL server has gone away
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(449): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-19 18:42:46 --> MySQL server has gone away
+CRITICAL - 2022-09-19 18:42:46 --> MySQL server has gone away
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(449): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-19 18:45:27 --> MySQL server has gone away
+CRITICAL - 2022-09-19 18:45:27 --> MySQL server has gone away
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(449): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-19 18:46:23 --> MySQL server has gone away
+CRITICAL - 2022-09-19 18:46:23 --> MySQL server has gone away
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(449): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-19 18:46:58 --> MySQL server has gone away
+CRITICAL - 2022-09-19 18:46:58 --> MySQL server has gone away
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(449): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-19 18:48:58 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2022-09-19 18:48:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\rifas\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(286): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-19 18:49:47 --> MySQL server has gone away
+CRITICAL - 2022-09-19 18:49:47 --> MySQL server has gone away
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(449): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-09-19 18:50:15 --> MySQL server has gone away
+CRITICAL - 2022-09-19 18:50:15 --> MySQL server has gone away
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(449): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#13 {main}

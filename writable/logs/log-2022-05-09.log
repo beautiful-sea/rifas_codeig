@@ -1,0 +1,27 @@
+CRITICAL - 2022-05-09 19:39:44 --> Invalid file: backend/partials/header.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/partial...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(9): view('backend/partial...')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 19:39:45 --> Invalid file: backend/partials/header.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/partial...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(9): view('backend/partial...')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 19:39:46 --> Invalid file: backend/partials/header.php
+#0 C:\xampp\htdocs\rifas\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/partial...')
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(9): view('backend/partial...')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

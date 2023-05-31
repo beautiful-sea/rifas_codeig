@@ -1,0 +1,1081 @@
+CRITICAL - 2022-08-11 08:50:29 --> Call to undefined function App\Controllers\NOW()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Cron->update_orders()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-11 09:01:46 --> Call to undefined method App\Models\OrderModel::andWhere
+#0 C:\xampp\htdocs\rifas\app\Controllers\Cron.php(18): CodeIgniter\Model->__call('andWhere', Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Cron->update_orders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 09:02:18 --> Trying to get property 'numbers' of non-object
+#0 C:\xampp\htdocs\rifas\app\Controllers\Cron.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Cron->update_orders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 09:03:56 --> Trying to get property 'number' of non-object
+#0 C:\xampp\htdocs\rifas\app\Controllers\Cron.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Cron->update_orders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 09:04:15 --> Illegal string offset 'number'
+#0 C:\xampp\htdocs\rifas\app\Controllers\Cron.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Cron->update_orders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 10:02:19 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 297, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Home.php(297): count('200')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyAutoRaffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 10:02:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 299, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Home.php(299): count(200)
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyAutoRaffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 10:03:08 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 299, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Home.php(299): count(200)
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyAutoRaffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 10:13:02 --> Array to string conversion
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 365, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyAutoRaffle()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 10:25:59 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 10:49:14 --> Trying to get property 'profit' of non-object
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 14:06:52 --> Array to string conversion
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(325): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 325, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 14:09:11 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(335): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660237751_2017...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 14:10:39 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(335): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660237839_33fc...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 14:11:12 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(335): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660237872_5bb7...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 14:13:12 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(335): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660237992_74ff...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 14:14:02 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(335): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660238042_633b...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 14:18:49 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(335): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660238329_c932...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 14:22:53 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(335): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660238573_2399...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 14:26:09 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(335): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660238769_2631...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 14:27:17 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(335): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660238837_0b14...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 14:28:24 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(335): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660238904_f9ac...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 14:35:01 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$path
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-11 14:36:12 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(335): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660239372_7596...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 14:40:09 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(335): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660239609_4136...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 15:25:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\rifas\app\Views\backend\edit_raffle.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/edit_ra...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(498): view('backend/edit_ra...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 15:32:46 --> Call to undefined function strreplace()
+#0 C:\xampp\htdocs\rifas\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/edit_ra...', Array, true)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(498): view('backend/edit_ra...', Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-11 15:55:58 --> Use of undefined constant uri_string - assumed 'uri_string' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\rifas\app\Views\backend\edit_raffle.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/edit_ra...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(500): view('backend/edit_ra...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 15:56:15 --> Use of undefined constant uri_string - assumed 'uri_string' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(496): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 496, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 15:56:47 --> Use of undefined constant uri_string - assumed 'uri_string' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\rifas\app\Views\backend\edit_raffle.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/edit_ra...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(500): view('backend/edit_ra...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 16:20:59 --> Use of undefined constant PUBLICPATH - assumed 'PUBLICPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(497): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 497, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 17:11:38 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\backend\raffles.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(228): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:12:10 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:12:10 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:12:48 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:12:48 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:14:58 --> Undefined property: stdClass::$quantity_of_numbers
+#0 C:\xampp\htdocs\rifas\app\Views\backend\edit_raffle.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/edit_ra...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(501): view('backend/edit_ra...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:15:00 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:18:24 --> Undefined property: stdClass::$quantity_of_numbers
+#0 C:\xampp\htdocs\rifas\app\Views\backend\edit_raffle.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/edit_ra...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(501): view('backend/edit_ra...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:18:25 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:19:07 --> Undefined property: stdClass::$discount
+#0 C:\xampp\htdocs\rifas\app\Views\backend\edit_raffle.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/edit_ra...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(501): view('backend/edit_ra...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:19:08 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:19:22 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:19:22 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:20:08 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:20:08 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:20:30 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:20:30 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:21:43 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:21:43 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:21:46 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:21:46 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:23:53 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:23:53 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:24:13 --> syntax error, unexpected '?>', expecting ')'
+#0 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/edit_ra...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(501): view('backend/edit_ra...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-11 17:24:14 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:24:54 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:24:54 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:25:09 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:25:09 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:29:22 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:29:22 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:29:26 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:29:27 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:30:12 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:30:12 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:30:14 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:30:14 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:30:16 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:30:16 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:30:29 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:30:29 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:39:28 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(402): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 402, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 17:43:22 --> Call to undefined function App\Controllers\rstrstr()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-11 17:44:23 --> Call to undefined function App\Controllers\rstrstr()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-11 17:44:36 --> Call to undefined function App\Controllers\mb_rstrstr()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-11 17:47:32 --> Call to undefined function App\Controllers\rstrstr()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-11 17:47:39 --> strrev() expects exactly 1 parameter, 3 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strrev() expect...', 'C:\\xampp\\htdocs...', 409, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(409): strrev('http://localhos...', '/', false)
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 17:49:11 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 409, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 17:49:25 --> strrpos() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strrpos() expec...', 'C:\\xampp\\htdocs...', 409, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(409): strrpos(Object(stdClass), '/')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 17:49:55 --> strrpos() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strrpos() expec...', 'C:\\xampp\\htdocs...', 409, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(409): strrpos(Object(stdClass), '/')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 17:59:28 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 17:59:28 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 18:00:10 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 18:00:10 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 18:08:24 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(476): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660252104_ccab...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 18:10:42 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(476): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660252242_76a0...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 18:16:07 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 18:16:07 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 18:21:58 --> [] operator not supported for strings
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-11 18:22:32 --> [] operator not supported for strings
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-11 18:26:09 --> in_array() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', 'C:\\xampp\\htdocs...', 466, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(466): in_array('1660241170_ec9c...', '1660241170_3b1c...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 18:26:30 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(491): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660253190_bc98...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 18:27:14 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(489): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660253234_8b6e...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 18:27:25 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 18:27:25 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 18:27:35 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\rifas\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(489): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1660253255_9a41...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-11 18:42:47 --> CONSTRAINT `raffles.numbers` failed for `rifas`.`raffles`
+CRITICAL - 2022-08-11 18:42:47 --> CONSTRAINT `raffles.numbers` failed for `rifas`.`raffles`
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(498): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-08-11 18:42:53 --> CONSTRAINT `raffles.numbers` failed for `rifas`.`raffles`
+CRITICAL - 2022-08-11 18:42:53 --> CONSTRAINT `raffles.numbers` failed for `rifas`.`raffles`
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(498): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-08-11 18:43:30 --> CONSTRAINT `raffles.numbers` failed for `rifas`.`raffles`
+CRITICAL - 2022-08-11 18:43:30 --> CONSTRAINT `raffles.numbers` failed for `rifas`.`raffles`
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(498): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-08-11 18:43:56 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/home', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(25): view('frontend/home', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-11 18:44:02 --> CONSTRAINT `raffles.numbers` failed for `rifas`.`raffles`
+CRITICAL - 2022-08-11 18:44:02 --> CONSTRAINT `raffles.numbers` failed for `rifas`.`raffles`
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(498): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-08-11 18:44:52 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(498): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 498, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('11')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-11 18:45:05 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\backend\raffles.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(228): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 19:12:19 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/edit_ra...', Array, true)
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(515): view('backend/edit_ra...', Array)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('13')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-11 19:56:19 --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 439, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(439): header('Content-Type: a...')
+#2 C:\xampp\htdocs\rifas\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp\htdocs\rifas\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 19:56:19 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 19:56:20 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\rifas\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\rifas\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\rifas\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\rifas\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(179): session()
+#9 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#12 C:\xampp\htdocs\rifas\app\Controllers\Home.php(26): view('frontend/partia...')
+#13 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#14 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-11 19:56:20 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-11 20:44:13 --> Division by zero
+#0 C:\xampp\htdocs\rifas\app\Controllers\Cron.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Cron.php(47): App\Controllers\Cron->setRafflePercent('13')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Cron->update_orders()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 20:45:00 --> Division by zero
+#0 C:\xampp\htdocs\rifas\app\Controllers\Cron.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Cron.php(47): App\Controllers\Cron->setRafflePercent('13')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Cron->update_orders()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-11 20:45:36 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-11 20:45:46 --> Division by zero
+#0 C:\xampp\htdocs\rifas\app\Controllers\Cron.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Cron.php(47): App\Controllers\Cron->setRafflePercent('13')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Cron->update_orders()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cron))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,122 @@
+CRITICAL - 2023-04-06 10:07:07 --> Internal API Error
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(830): MercadoPago\Entity->save()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-06 18:07:27 --> Unknown column 'qtd_raffles_home' in 'field list'
+CRITICAL - 2023-04-06 18:07:27 --> Call to a member function getResult() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(68): CodeIgniter\BaseModel->findAll()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-04-06 18:08:21 --> Unknown column 'qtd_raffles_home' in 'field list'
+CRITICAL - 2023-04-06 18:08:21 --> Call to a member function getResult() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(68): CodeIgniter\BaseModel->findAll()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-04-06 18:08:23 --> Unknown column 'qtd_raffles_home' in 'field list'
+CRITICAL - 2023-04-06 18:08:23 --> Call to a member function getResult() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(68): CodeIgniter\BaseModel->findAll()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-04-06 18:10:06 --> Unknown column 'qtd_raffles_home' in 'field list'
+CRITICAL - 2023-04-06 18:10:06 --> Call to a member function getResult() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(68): CodeIgniter\BaseModel->findAll()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-04-06 18:10:07 --> Unknown column 'qtd_raffles_home' in 'field list'
+CRITICAL - 2023-04-06 18:10:07 --> Call to a member function getResult() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(68): CodeIgniter\BaseModel->findAll()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-04-06 18:10:09 --> Unknown column 'qtd_raffles_home' in 'field list'
+CRITICAL - 2023-04-06 18:10:09 --> Call to a member function getResult() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(68): CodeIgniter\BaseModel->findAll()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-06 18:11:17 --> Cannot use object of type App\Models\UserModel as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-06 18:16:51 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, object given, called in /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php on line 73
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(73): CodeIgniter\BaseModel->findAll(Object(stdClass))
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-06 18:17:32 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, object given, called in /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php on line 73
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(73): CodeIgniter\BaseModel->findAll(Object(stdClass))
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-06 18:17:38 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, object given, called in /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php on line 73
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(73): CodeIgniter\BaseModel->findAll(Object(stdClass))
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-06 18:17:47 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, array given, called in /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php on line 73
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(73): CodeIgniter\BaseModel->findAll(Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-06 18:17:49 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, array given, called in /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php on line 73
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(73): CodeIgniter\BaseModel->findAll(Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-06 18:19:04 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-06 18:20:55 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, object given, called in /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php on line 74
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(74): CodeIgniter\BaseModel->findAll(Object(stdClass))
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-06 18:34:30 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, object given, called in /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php on line 55
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Home.php(55): CodeIgniter\BaseModel->findAll(Object(stdClass))
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}

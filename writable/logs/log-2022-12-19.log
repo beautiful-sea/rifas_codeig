@@ -1,0 +1,340 @@
+CRITICAL - 2022-12-19 18:06:58 --> Undefined variable: raff
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(614): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 614, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->add_raffle()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:17:12 --> syntax error, unexpected '$data' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 18:31:28 --> syntax error, unexpected '$data' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 18:32:04 --> syntax error, unexpected '$data' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 18:32:36 --> syntax error, unexpected '$data' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 18:32:56 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 18:32:58 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 18:33:00 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 18:34:29 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 18:34:50 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 18:35:01 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 18:35:16 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifandos\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-19 18:36:16 --> Call to undefined method App\Models\OrderModel::getResult
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(344): CodeIgniter\Model->__call('getResult', Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:36:23 --> Call to undefined method App\Models\OrderModel::getResultS
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(344): CodeIgniter\Model->__call('getResultS', Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:36:28 --> Call to undefined method App\Models\OrderModel::getResults
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(344): CodeIgniter\Model->__call('getResults', Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:37:22 --> Call to undefined method App\Models\OrderModel::getRow
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(344): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:39:31 --> Array to string conversion
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(349): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 349, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 18:39:42 --> Trying to get property 'total_paid' of non-object
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(349): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 349, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-19 19:26:38 --> Unknown column 'raffles.quantity' in 'field list'
+CRITICAL - 2022-12-19 19:26:38 --> Unknown column 'raffles.quantity' in 'field list'
+#0 C:\xampp\htdocs\rifandos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\rifandos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\rifandos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rifandos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\rifandos\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(336): CodeIgniter\BaseModel->paginate(10)
+#8 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#9 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-19 19:28:12 --> Unknown column 'raffles.quantity' in 'field list'
+CRITICAL - 2022-12-19 19:28:12 --> Unknown column 'raffles.quantity' in 'field list'
+#0 C:\xampp\htdocs\rifandos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\rifandos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\rifandos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rifandos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\rifandos\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(336): CodeIgniter\BaseModel->paginate(10)
+#8 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#9 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-19 19:30:25 --> Undefined property: stdClass::$images
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\raffles.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(449): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 19:30:44 --> Undefined property: stdClass::$images
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\raffles.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(449): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 19:31:27 --> Undefined property: stdClass::$slug
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\raffles.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(449): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 19:31:36 --> Undefined property: stdClass::$draw_date
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\raffles.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(449): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 19:31:45 --> Undefined property: stdClass::$payment_price
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\raffles.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(449): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 19:31:54 --> Undefined property: stdClass::$percent_level
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\raffles.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(449): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 19:32:03 --> Undefined property: stdClass::$payment_status
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\raffles.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(449): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 19:32:12 --> Undefined property: stdClass::$status
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\raffles.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(449): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-19 19:32:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `raffles`
+LEFT JOIN `categories` ON `raffles`.`id_category` = ...' at line 1
+CRITICAL - 2022-12-19 19:32:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `raffles`
+LEFT JOIN `categories` ON `raffles`.`id_category` = ...' at line 1
+#0 C:\xampp\htdocs\rifandos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\rifandos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\rifandos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rifandos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\rifandos\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(336): CodeIgniter\BaseModel->paginate(10)
+#8 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#9 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-19 19:32:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `raffles`
+LEFT JOIN `categories` ON `raffles`.`id_category` = ...' at line 1
+CRITICAL - 2022-12-19 19:32:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`status`
+FROM `raffles`
+LEFT JOIN `categories` ON `raffles`.`id_category` = ...' at line 1
+#0 C:\xampp\htdocs\rifandos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\rifandos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\rifandos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rifandos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\rifandos\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(336): CodeIgniter\BaseModel->paginate(10)
+#8 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#9 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-19 19:33:16 --> Undefined variable: pager
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\raffles.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(449): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-19 19:36:04 --> Undefined property: stdClass::$numbers_of_number
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(354): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 354, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-19 19:36:15 --> Undefined variable: number_of_numbers
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(366): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 366, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}

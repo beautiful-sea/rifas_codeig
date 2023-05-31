@@ -1,0 +1,14 @@
+CRITICAL - 2022-09-01 09:05:15 --> Creating default object from empty value
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'C:\\xampp\\htdocs...', 254, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-01 09:09:13 --> Undefined index: raffle
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 254, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}

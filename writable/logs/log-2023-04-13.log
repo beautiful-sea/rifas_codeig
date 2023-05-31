@@ -1,0 +1,165 @@
+CRITICAL - 2023-04-13 12:24:13 --> syntax error, unexpected '<', expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-13 12:25:12 --> syntax error, unexpected '<'
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-13 12:26:01 --> syntax error, unexpected '<'
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-13 12:36:39 --> Call to a member function select() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('27')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-13 12:37:29 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-13 12:57:00 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('22')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-13 12:57:26 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('22')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-13 12:59:54 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('22')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-13 13:21:36 --> Illegal string offset 'cota'
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/home/rifadaho/...', 1275, Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('22')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 13:30:07 --> Call to undefined method App\Models\OrderModel::all
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1175): CodeIgniter\Model->__call('all', Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('22')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 13:32:16 --> Call to undefined method App\Models\OrderModel::getResult
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1175): CodeIgniter\Model->__call('getResult', Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('22')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 13:33:30 --> Call to undefined method App\Models\OrderModel::getResult
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1177): CodeIgniter\Model->__call('getResult', Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('22')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 14:07:37 --> join() expects at most 2 parameters, 3 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'join() expects ...', '/home/rifadaho/...', 1179, Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1179): join('raffles', 'raffles.id = or...', 'LEFT')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('21')
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-13 14:08:49 --> join() expects at most 2 parameters, 3 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'join() expects ...', '/home/rifadaho/...', 1181, Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1181): join('raffles', 'raffles.id = or...', 'LEFT')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('21')
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-04-13 14:23:10 --> Column 'id_user' in where clause is ambiguous
+CRITICAL - 2023-04-13 14:23:10 --> Call to a member function getResult() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1182): CodeIgniter\BaseModel->findAll()
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('18')
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-13 14:23:39 --> Call to undefined method App\Models\OrderModel::getResults
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1182): CodeIgniter\Model->__call('getResults', Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('18')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 18:25:11 --> Invalid argument supplied for foreach()
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/rifadaho/...', 1182, Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 18:26:07 --> Invalid argument supplied for foreach()
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/rifadaho/...', 1182, Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 18:27:26 --> Invalid argument supplied for foreach()
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/rifadaho/...', 1182, Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 18:27:29 --> Invalid argument supplied for foreach()
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/rifadaho/...', 1182, Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 18:29:38 --> Invalid argument supplied for foreach()
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/rifadaho/...', 1183, Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 18:31:21 --> Cannot use [] for reading
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('28')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}

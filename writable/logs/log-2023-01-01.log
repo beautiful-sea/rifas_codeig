@@ -1,0 +1,27 @@
+CRITICAL - 2023-01-01 03:25:57 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('52838624149')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-01 03:35:41 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('52838901549')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-01 17:07:01 --> Please initialize SDK first
+#0 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(110): MercadoPago\Entity->__construct()
+#1 /home2/h7sist27/app.rifandos.com.br/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(75): MercadoPago\Entity::read(Array)
+#2 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(35): MercadoPago\Entity::find_by_id('52852470447')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->update_order()
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}

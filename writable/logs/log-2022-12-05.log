@@ -1,0 +1,22 @@
+CRITICAL - 2022-12-05 10:41:23 --> Undefined variable: orders
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(186): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-05 10:43:10 --> Undefined variable: customers
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(186): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,41 @@
+ERROR - 2023-03-24 10:24:05 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-24 10:24:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/rifadaho/rifa/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/rifadaho/rifa/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/rifadaho/rifa/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/rifadaho/rifa/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/rifadaho/rifa/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/rifadaho/rifa/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/rifadaho/rifa/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/rifadaho/rifa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/rifadaho/rifa/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-24 10:24:28 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-03-24 10:24:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/rifadaho/rifa/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/rifadaho/rifa/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home/rifadaho/rifa/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/rifadaho/rifa/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home/rifadaho/rifa/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home/rifadaho/rifa/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home/rifadaho/rifa/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/rifadaho/rifa/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/rifadaho/rifa/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-24 23:07:53 --> Maximum execution time of 90 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-24 23:11:09 --> Maximum execution time of 90 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-24 23:13:18 --> Maximum execution time of 90 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-24 23:18:12 --> Maximum execution time of 90 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-24 23:26:58 --> Maximum execution time of 90 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

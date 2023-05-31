@@ -1,0 +1,51 @@
+CRITICAL - 2022-06-04 19:25:26 --> in_array() expects parameter 2 to be array, int given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', 'C:\\xampp\\htdocs...', 370, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Home.php(370): in_array(Array, 1)
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyAutoRaffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 19:36:07 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-04 19:39:48 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-04 19:43:29 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-04 19:46:50 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-04 19:47:25 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 364, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Home.php(364): count('30')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyAutoRaffle()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 19:55:20 --> Undefined offset: 1000
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(375): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 375, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyAutoRaffle()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-04 20:08:46 --> Got a packet bigger than 'max_allowed_packet' bytes
+CRITICAL - 2022-06-04 20:08:46 --> Got a packet bigger than 'max_allowed_packet' bytes
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `raffles...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `raffles...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `raffles...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `raffles...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\rifas\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\rifas\system\BaseModel.php(656): CodeIgniter\Model->update('11', Array)
+#8 C:\xampp\htdocs\rifas\app\Controllers\Home.php(446): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyAutoRaffle()
+#10 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\rifas\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

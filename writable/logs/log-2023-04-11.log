@@ -1,0 +1,105 @@
+CRITICAL - 2023-04-11 08:31:01 --> Call to a member function isValid() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 08:55:20 --> Call to a member function save() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 08:57:25 --> Call to a member function save() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 08:57:39 --> Call to a member function save() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 09:06:49 --> Não há dados para update.
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1534): CodeIgniter\Model->update(Array)
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-11 14:46:58 --> Não é possível salvar a imagem. Por favor, certifique-se de que a imagem e o diretório de arquivos são graváveis.
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1504): CodeIgniter\Images\Handlers\GDHandler->save('/home/rifadaho/...')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-11 14:48:14 --> Não é possível salvar a imagem. Por favor, certifique-se de que a imagem e o diretório de arquivos são graváveis.
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1504): CodeIgniter\Images\Handlers\GDHandler->save('/home/rifadaho/...')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-11 14:48:20 --> Não é possível salvar a imagem. Por favor, certifique-se de que a imagem e o diretório de arquivos são graváveis.
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1504): CodeIgniter\Images\Handlers\GDHandler->save('/home/rifadaho/...')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-11 14:48:36 --> Não é possível salvar a imagem. Por favor, certifique-se de que a imagem e o diretório de arquivos são graváveis.
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Images/Handlers/GDHandler.php(255): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1504): CodeIgniter\Images\Handlers\GDHandler->save('/home/rifadaho/...')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-11 14:55:46 --> Não é possível salvar a imagem. Por favor, certifique-se de que a imagem e o diretório de arquivos são graváveis.
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Images/Handlers/GDHandler.php(255): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1504): CodeIgniter\Images\Handlers\GDHandler->save('/home/rifadaho/...')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-11 14:57:09 --> Não é possível salvar a imagem. Por favor, certifique-se de que a imagem e o diretório de arquivos são graváveis.
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Images/Handlers/GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1504): CodeIgniter\Images\Handlers\GDHandler->save('/home/rifadaho/...')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-11 15:00:13 --> 
+#0 /home/rifadaho/osincriveissorteios.com.br/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1509): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-11 15:24:54 --> Call to a member function update() on null
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 15:28:37 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('1681237717_cd30...', 'update')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, '1681237717_cd30...')
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1510): CodeIgniter\Model->update(Array, '1681237717_cd30...')
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->uploadLogomarca()
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}

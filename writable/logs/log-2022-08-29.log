@@ -1,0 +1,225 @@
+CRITICAL - 2022-08-29 09:49:41 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\rifas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-29 09:51:27 --> Undefined variable: thanks_scripts
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(919): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 919, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-29 09:52:13 --> Não há dados para update.
+#0 C:\xampp\htdocs\rifas\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\rifas\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(919): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-29 09:52:37 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\rifas\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(919): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 09:53:43 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\rifas\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(919): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 09:54:11 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\rifas\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(919): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 09:56:11 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\rifas\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(920): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 09:57:12 --> Undefined variable: thanks
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(915): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 915, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-29 09:58:09 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\rifas\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(920): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 09:58:55 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\rifas\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(920): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 09:59:37 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\rifas\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(920): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 09:59:52 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\rifas\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(920): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 10:00:24 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\rifas\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\rifas\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\rifas\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\rifas\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(920): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 10:00:55 --> Undefined index: message
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(54): view('frontend/partia...')
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 10:13:23 --> Undefined variable: my_orders_scripts
+#0 C:\xampp\htdocs\rifas\app\Views\backend\settings.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(953): view('backend/setting...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 10:13:40 --> Undefined variable: my_orders_scripts
+#0 C:\xampp\htdocs\rifas\app\Views\backend\settings.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(953): view('backend/setting...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 10:14:07 --> Trying to get property 'my_orders_scripts' of non-object
+#0 C:\xampp\htdocs\rifas\app\Views\backend\settings.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/setting...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(953): view('backend/setting...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->settings()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 10:24:49 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\rifas\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(844): view('frontend/partia...', Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-29 10:56:15 --> Undefined property: stdClass::$thanks_scripts
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 130, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(845): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 11:33:23 --> Trying to get property 'transaction_data' of non-object
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(732): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 732, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-29 15:09:15 --> unlink(C:\xampp\htdocs\rifas\writable\debugbar/debugbar_1661794366.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1661796550, 20)
+#3 C:\xampp\htdocs\rifas\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\rifas\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\rifas\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-29 15:18:51 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\rifas\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(862): view('frontend/my_ord...', Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,28 @@
+CRITICAL - 2022-09-09 09:47:30 --> Call to undefined function str_upper()
+#0 C:\xampp\htdocs\rifas\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/raffle...', Array, true)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(130): view('frontend/raffle...', Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('kit-ostentacao-...')
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-09 12:39:50 --> Undefined variable: pack
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\raffle_auto.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/raffle...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(130): view('frontend/raffle...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('kit-ostentacao-...')
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 15:32:20 --> Trying to get property 'transaction_data' of non-object
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(717): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 717, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}

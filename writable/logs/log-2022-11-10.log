@@ -1,0 +1,56 @@
+ERROR - 2022-11-10 07:33:46 --> Unknown column 'expires_time' in 'field list'
+CRITICAL - 2022-11-10 07:33:46 --> Unknown column 'expires_time' in 'field list'
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `expires...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `expires...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `expires...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `expires...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\rifas\app\Controllers\Home.php(298): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#8 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-11-10 07:46:15 --> Unknown column 'expires_time' in 'field list'
+CRITICAL - 2022-11-10 07:46:15 --> Unknown column 'expires_time' in 'field list'
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `expires...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `expires...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `expires...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `expires...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\rifas\app\Controllers\Home.php(298): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#8 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-11-10 07:46:42 --> Unknown column 'expires_time' in 'field list'
+CRITICAL - 2022-11-10 07:46:42 --> Unknown column 'expires_time' in 'field list'
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `expires...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `expires...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `expires...')
+#3 C:\xampp\htdocs\rifas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `expires...', Array, false)
+#4 C:\xampp\htdocs\rifas\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rifas\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\rifas\app\Controllers\Home.php(298): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#8 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-10 07:47:19 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(775): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 775, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-10 07:48:28 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(775): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 775, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}

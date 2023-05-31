@@ -1,0 +1,263 @@
+CRITICAL - 2022-12-06 09:37:04 --> Undefined variable: customers
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(186): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 09:50:01 --> Undefined variable: customers
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(194): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 09:53:25 --> Undefined variable: customers
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(205): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 09:53:26 --> Undefined variable: customers
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(205): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 09:55:00 --> Undefined variable: customers
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(204): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 09:55:02 --> Undefined variable: customers
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(204): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 09:56:38 --> Undefined variable: pager
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(204): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 09:57:50 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(204): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 10:02:23 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(205): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 10:03:22 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(205): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 10:04:18 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-06 10:05:42 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-06 10:06:15 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-06 10:06:16 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-12-06 10:06:57 --> Unknown column 'id_user' in 'field list'
+CRITICAL - 2022-12-06 10:06:57 --> Unknown column 'id_user' in 'field list'
+#0 C:\xampp\htdocs\rifandos\system\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT id_user...', 0)
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT id_user...')
+#2 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT id_user...')
+#3 C:\xampp\htdocs\rifandos\system\Model.php(726): CodeIgniter\Database\BaseConnection->query(' SELECT id_user...')
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(165): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-06 10:07:19 --> Unknown column 'id_user' in 'field list'
+CRITICAL - 2022-12-06 10:07:19 --> Unknown column 'id_user' in 'field list'
+#0 C:\xampp\htdocs\rifandos\system\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT id_user...', 0)
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT id_user...')
+#2 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT id_user...')
+#3 C:\xampp\htdocs\rifandos\system\Model.php(726): CodeIgniter\Database\BaseConnection->query(' SELECT id_user...')
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(165): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 10:10:12 --> Undefined variable: order
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(195): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 10:16:36 --> Undefined variable: totalNumbers
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(194): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 10:16:39 --> Undefined variable: totalNumbers
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(194): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 10:17:53 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifandos\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#3 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(195): view('backend/ranking', Array)
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 10:17:54 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifandos\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#3 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(195): view('backend/ranking', Array)
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 10:18:12 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifandos\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#3 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(195): view('backend/ranking', Array)
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 10:18:25 --> Undefined variable: numbers
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(195): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 10:18:36 --> Undefined property: stdClass::$status
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\ranking.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/ranking', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(195): view('backend/ranking', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->ranking()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 10:38:17 --> unlink(C:\xampp\htdocs\rifandos\writable\debugbar/debugbar_1670331814.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\rifandos\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1670333896, 20)
+#3 C:\xampp\htdocs\rifandos\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\rifandos\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\rifandos\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 10:38:37 --> unlink(C:\xampp\htdocs\rifandos\writable\debugbar/debugbar_1670333633.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\rifandos\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1670333915, 20)
+#3 C:\xampp\htdocs\rifandos\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\rifandos\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\rifandos\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

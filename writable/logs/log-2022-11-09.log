@@ -1,0 +1,159 @@
+ERROR - 2022-11-09 08:10:05 --> Unknown column 'id_user' in 'field list'
+CRITICAL - 2022-11-09 08:10:05 --> Unknown column 'id_user' in 'field list'
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT max(id_u...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT max(id_u...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT max(id_u...')
+#3 C:\xampp\htdocs\rifas\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT max(id_u...')
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(231): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 08:11:02 --> Unknown column 'id_user' in 'field list'
+CRITICAL - 2022-11-09 08:11:02 --> Unknown column 'id_user' in 'field list'
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT max(id_u...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT max(id_u...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT max(id_u...')
+#3 C:\xampp\htdocs\rifas\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT max(id_u...')
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(231): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 08:13:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-09 08:16:09 --> Call to undefined method App\Models\OrderModel::getLastQuer
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(232): CodeIgniter\Model->__call('getLastQuer', Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-09 08:32:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '45' AND status = '1' GROUP BY user_id ORDER BY TotalAmount DESC LIMIT 1' at line 1
+CRITICAL - 2022-11-09 08:32:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '45' AND status = '1' GROUP BY user_id ORDER BY TotalAmount DESC LIMIT 1' at line 1
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT SUM(qua...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT SUM(qua...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT SUM(qua...')
+#3 C:\xampp\htdocs\rifas\system\Model.php(726): CodeIgniter\Database\BaseConnection->query(' SELECT SUM(qua...')
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(231): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 08:32:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '45' AND status = '1' GROUP BY user_id ORDER BY TotalAmount DESC LIMIT 1' at line 1
+CRITICAL - 2022-11-09 08:32:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '> '45' AND status = '1' GROUP BY user_id ORDER BY TotalAmount DESC LIMIT 1' at line 1
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT user_id...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT user_id...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT user_id...')
+#3 C:\xampp\htdocs\rifas\system\Model.php(726): CodeIgniter\Database\BaseConnection->query(' SELECT user_id...')
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(231): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 08:33:34 --> Unknown column 'user_id' in 'field list'
+CRITICAL - 2022-11-09 08:33:34 --> Unknown column 'user_id' in 'field list'
+#0 C:\xampp\htdocs\rifas\system\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT user_id...', 0)
+#1 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT user_id...')
+#2 C:\xampp\htdocs\rifas\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT user_id...')
+#3 C:\xampp\htdocs\rifas\system\Model.php(726): CodeIgniter\Database\BaseConnection->query(' SELECT user_id...')
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(231): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 08:39:30 --> Trying to get property 'id_user' of non-object
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 235, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 08:40:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::asObject()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-09 08:40:38 --> Trying to get property 'id_user' of non-object
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 235, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-09 08:41:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArray()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-09 08:41:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getObject()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-09 08:44:06 --> Undefined property: stdClass::$user
+#0 C:\xampp\htdocs\rifas\app\Views\backend\raffles.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(286): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 08:47:20 --> Undefined property: stdClass::$user
+#0 C:\xampp\htdocs\rifas\app\Views\backend\raffles.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(288): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 08:47:23 --> Undefined property: stdClass::$user
+#0 C:\xampp\htdocs\rifas\app\Views\backend\raffles.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(288): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 08:48:00 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifas\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#3 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(288): view('backend/raffles', Array)
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-09 08:48:45 --> Undefined property: stdClass::$user
+#0 C:\xampp\htdocs\rifas\app\Views\backend\raffles.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(288): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,587 @@
+CRITICAL - 2022-12-20 08:36:19 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\raffles.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(447): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-20 08:39:15 --> Creating default object from empty value
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Home.php(306): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'C:\\xampp\\htdocs...', 306, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Home->buyManualRaffle()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-20 09:26:09 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifandos\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('frontend/raffle...', Array, true)
+#3 C:\xampp\htdocs\rifandos\app\Controllers\Home.php(147): view('frontend/raffle...', Array)
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Home->raffle('3-rifinha-de-te...')
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 09:26:27 --> Undefined index: winner
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Home.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Home->raffle('3-rifinha-de-te...')
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-20 09:26:28 --> Undefined index: winner
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Home.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Home->raffle('3-rifinha-de-te...')
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-20 11:15:39 --> unlink(C:\xampp\htdocs\rifandos\writable\debugbar/debugbar_1671545045.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\rifandos\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1671545736, 20)
+#3 C:\xampp\htdocs\rifandos\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\rifandos\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\rifandos\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 11:35:56 --> Trying to get property 'title' of non-object
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(145): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-20 13:45:56 --> unlink(C:\xampp\htdocs\rifandos\writable\debugbar/debugbar_1671545499.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\rifandos\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1671554753, 20)
+#3 C:\xampp\htdocs\rifandos\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\rifandos\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\rifandos\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\rifandos\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 14:35:06 --> Constant FILTER_SANITIZE_STRIPPED is deprecated
+#0 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/home2/h7sist27...', 30)
+#1 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-20 14:35:07 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-12-20 14:35:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-20 14:35:14 --> Constant FILTER_SANITIZE_STRIPPED is deprecated
+#0 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/home2/h7sist27...', 30)
+#1 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-20 14:35:14 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-12-20 14:35:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 14:35:53 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-12-20 14:35:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 14:35:54 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-12-20 14:35:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 14:37:54 --> Table 'h7sist27_rifandos.raffles' doesn't exist
+CRITICAL - 2022-12-20 14:37:54 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-20 14:37:54 --> Table 'h7sist27_rifandos.raffles' doesn't exist
+CRITICAL - 2022-12-20 14:37:54 --> Call to a member function getFirstRow() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-20 14:38:18 --> Table 'h7sist27_rifandos.raffles' doesn't exist
+CRITICAL - 2022-12-20 14:38:18 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-20 14:38:18 --> Table 'h7sist27_rifandos.raffles' doesn't exist
+CRITICAL - 2022-12-20 14:38:18 --> Call to a member function getFirstRow() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-20 15:35:52 --> Table 'h7sist27_rifandos.raffles' doesn't exist
+CRITICAL - 2022-12-20 15:35:52 --> Call to a member function getFirstRow() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-20 15:36:11 --> Table 'h7sist27_rifandos.users' doesn't exist
+CRITICAL - 2022-12-20 15:36:11 --> Call to a member function getRow() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('hiagodeoliveira...', 'email', Array, NULL)
+#1 /home2/h7sist27/app.rifandos.com.br/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'hiagodeoliveira...', Array, Array)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Auth.php(85): CodeIgniter\Controller->validate(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Auth->register()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-20 15:36:12 --> Table 'h7sist27_rifandos.raffles' doesn't exist
+CRITICAL - 2022-12-20 15:36:12 --> Call to a member function getFirstRow() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-20 15:38:19 --> Table 'h7sist27_rifandos.raffles' doesn't exist
+CRITICAL - 2022-12-20 15:38:19 --> Call to a member function getFirstRow() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-20 15:38:23 --> Table 'h7sist27_rifandos.raffles' doesn't exist
+CRITICAL - 2022-12-20 15:38:23 --> Call to a member function getResult() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#1 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-20 15:38:23 --> Table 'h7sist27_rifandos.raffles' doesn't exist
+CRITICAL - 2022-12-20 15:38:23 --> Call to a member function getFirstRow() on bool
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#2 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#3 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-20 15:41:04 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+CRITICAL - 2022-12-20 15:41:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 15:41:05 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+CRITICAL - 2022-12-20 15:41:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 15:41:06 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+CRITICAL - 2022-12-20 15:41:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 15:41:07 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+CRITICAL - 2022-12-20 15:41:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 15:41:43 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+CRITICAL - 2022-12-20 15:41:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 15:41:43 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+CRITICAL - 2022-12-20 15:41:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 15:41:46 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+CRITICAL - 2022-12-20 15:41:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 15:41:46 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+CRITICAL - 2022-12-20 15:41:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 15:42:26 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+CRITICAL - 2022-12-20 15:42:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 15:42:26 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+CRITICAL - 2022-12-20 15:42:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 15:42:57 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+CRITICAL - 2022-12-20 15:42:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `s...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(51): CodeIgniter\BaseModel->findAll(4)
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-20 15:42:57 --> Error connecting to the database: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+CRITICAL - 2022-12-20 15:42:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'h7sist27_rifandos'
+#0 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home2/h7sist27/app.rifandos.com.br/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Home.php(80): CodeIgniter\BaseModel->first()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Home->raffle('favicon.ico')
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-20 16:19:46 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:20:46 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:21:46 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:22:46 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:23:46 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:24:46 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:25:46 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:26:21 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:26:46 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:27:22 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:27:46 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:28:21 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:28:46 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:29:21 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:30:21 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:31:21 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:32:22 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:33:22 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:34:22 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 16:35:22 --> Não há dados para update.
+#0 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home2/h7sist27/app.rifandos.com.br/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home2/h7sist27/app.rifandos.com.br/system/Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home2/h7sist27/app.rifandos.com.br/app/Controllers/Api.php(70): CodeIgniter\Model->update(Array)
+#4 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(832): App\Controllers\Api->webhook_raffle_paggue()
+#5 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /home2/h7sist27/app.rifandos.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/h7sist27/app.rifandos.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

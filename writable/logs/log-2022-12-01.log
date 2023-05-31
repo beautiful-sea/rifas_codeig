@@ -1,0 +1,398 @@
+CRITICAL - 2022-12-01 07:54:26 --> Arquivo inválido: auth/partials/login.php
+#0 C:\xampp\htdocs\rifandos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/partials/l...')
+#1 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('auth/partials/l...', Array, true)
+#2 C:\xampp\htdocs\rifandos\app\Controllers\Auth.php(59): view('auth/partials/l...', Array)
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-01 07:54:37 --> Arquivo inválido: auth/partials/login.php
+#0 C:\xampp\htdocs\rifandos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/partials/l...')
+#1 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('auth/partials/l...', Array, true)
+#2 C:\xampp\htdocs\rifandos\app\Controllers\Auth.php(59): view('auth/partials/l...', Array)
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-12-01 07:57:07 --> Error connecting to the database: Unknown database 'rifandos'
+CRITICAL - 2022-12-01 07:57:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'rifandos'
+#0 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\rifandos\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rifandos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Home.php(82): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Home->raffle('js', 'notify.min.js')
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-01 07:57:20 --> Error connecting to the database: Unknown database 'rifandos'
+CRITICAL - 2022-12-01 07:57:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'rifandos'
+#0 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\rifandos\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rifandos\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Home.php(82): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Home->raffle('auth', 'cadastro')
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 09:27:51 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\rifandos\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\rifandos\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\rifandos\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\rifandos\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-01 09:39:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 227, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-01 09:43:44 --> Undefined property: stdClass::$phone
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\customers.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(795): view('backend/custome...', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->customers()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 09:52:37 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\raffles.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(284): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 10:10:44 --> Undefined property: stdClass::$phone
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\customers.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(794): view('backend/custome...', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->customers()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 10:12:23 --> Undefined variable: customers
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\customers.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/custome...', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(794): view('backend/custome...', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->customers()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 10:13:31 --> Class 'App\Controllers\CustomerModel' not found
+#0 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->customers()
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-01 10:14:45 --> Class 'App\Controllers\UserModel' not found
+#0 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->winners()
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-01 11:09:42 --> Undefined index: id_admin
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(759): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 759, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->customers()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-01 11:09:50 --> Undefined index: id_admin
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(759): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 759, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->customers()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-01 11:10:17 --> Undefined index: id_admin
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\partials\header.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(30): view('backend/partial...', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 11:16:46 --> Undefined index: user
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Home.php(741): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 741, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-01 11:17:23 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Home.php(777): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 777, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 12:39:37 --> Unknown column 'id_user' in 'field list'
+CRITICAL - 2022-12-01 12:39:37 --> Unknown column 'id_user' in 'field list'
+#0 C:\xampp\htdocs\rifandos\system\Database\MySQLi\Connection.php(292): mysqli->query(' SELECT id_user...', 0)
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute(' SELECT id_user...')
+#2 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery(' SELECT id_user...')
+#3 C:\xampp\htdocs\rifandos\system\Model.php(726): CodeIgniter\Database\BaseConnection->query(' SELECT id_user...')
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(228): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 12:39:47 --> Undefined property: stdClass::$user
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(87): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 12:41:12 --> Undefined property: stdClass::$user
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(87): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 12:41:46 --> Undefined property: stdClass::$user
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(87): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 12:57:56 --> Undefined variable: raffles
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(88): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 12:58:29 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(88): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 12:59:50 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(88): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 13:02:15 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(93): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 13:03:13 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(93): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 13:05:19 --> Call to undefined method App\Models\OrderModel::andWhere
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(64): CodeIgniter\Model->__call('andWhere', Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-01 13:05:34 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-12-01 13:05:34 --> Column 'id' in where clause is ambiguous
+#0 C:\xampp\htdocs\rifandos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\rifandos\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\rifandos\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\rifandos\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(72): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#8 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-12-01 13:06:15 --> Unknown column 'users.name' in 'where clause'
+CRITICAL - 2022-12-01 13:06:15 --> Unknown column 'users.name' in 'where clause'
+#0 C:\xampp\htdocs\rifandos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\rifandos\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\rifandos\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\rifandos\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(72): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#8 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-12-01 13:06:54 --> Unknown column 'users.name' in 'field list'
+CRITICAL - 2022-12-01 13:06:54 --> Unknown column 'users.name' in 'field list'
+#0 C:\xampp\htdocs\rifandos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `orders`...', 0)
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`...')
+#2 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`...')
+#3 C:\xampp\htdocs\rifandos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `orders`...', Array, false)
+#4 C:\xampp\htdocs\rifandos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rifandos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\rifandos\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(72): CodeIgniter\BaseModel->paginate(10)
+#8 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#9 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-12-01 13:16:29 --> Unknown column 'users.name' in 'field list'
+CRITICAL - 2022-12-01 13:16:29 --> Unknown column 'users.name' in 'field list'
+#0 C:\xampp\htdocs\rifandos\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `orders`...', 0)
+#1 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `orders`...')
+#2 C:\xampp\htdocs\rifandos\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `orders`...')
+#3 C:\xampp\htdocs\rifandos\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `orders`...', Array, false)
+#4 C:\xampp\htdocs\rifandos\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rifandos\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\rifandos\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(72): CodeIgniter\BaseModel->paginate(10)
+#8 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#9 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-01 13:17:25 --> Undefined property: stdClass::$id_user
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 219, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->approve_order('83374')
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-01 13:18:14 --> Undefined property: stdClass::$id_user
+#0 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(1207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 1207, Array)
+#1 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->winners()
+#2 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-01 13:23:54 --> Undefined variable: customer
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(93): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 13:29:42 --> Undefined variable: number
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(93): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 13:29:46 --> Undefined variable: number
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(93): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 13:29:48 --> Undefined variable: number
+#0 C:\xampp\htdocs\rifandos\app\Views\backend\orders.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151, Array)
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/orders', Array, true)
+#4 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(93): view('backend/orders', Array)
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->orders()
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-01 18:09:46 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifandos\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#3 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(30): view('backend/partial...', Array)
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-01 18:10:42 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifandos\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rifandos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rifandos\system\Common.php(1089): CodeIgniter\View\View->render('backend/partial...', Array, true)
+#3 C:\xampp\htdocs\rifandos\app\Controllers\Dashboard.php(30): view('backend/partial...', Array)
+#4 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\rifandos\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifandos\index.php(53): CodeIgniter\CodeIgniter->run()
+#8 {main}

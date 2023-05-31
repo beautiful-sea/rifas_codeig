@@ -1,0 +1,84 @@
+ERROR - 2023-04-02 00:20:42 --> MySQL server has gone away
+ERROR - 2023-04-02 00:20:42 --> MySQL server has gone away
+CRITICAL - 2023-04-02 00:20:42 --> Call to a member function getFirstRow() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1456): CodeIgniter\BaseModel->first()
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(257): App\Controllers\Dashboard->setRafflePercent('9')
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->delete_order('38')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-02 00:21:32 --> MySQL server has gone away
+ERROR - 2023-04-02 00:21:32 --> MySQL server has gone away
+CRITICAL - 2023-04-02 00:21:32 --> Call to a member function getFirstRow() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1456): CodeIgniter\BaseModel->first()
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(257): App\Controllers\Dashboard->setRafflePercent('9')
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->delete_order('39')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-02 19:39:16 --> MySQL server has gone away
+ERROR - 2023-04-02 19:39:16 --> MySQL server has gone away
+CRITICAL - 2023-04-02 19:39:16 --> Call to a member function getFirstRow() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1456): CodeIgniter\BaseModel->first()
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(257): App\Controllers\Dashboard->setRafflePercent('9')
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->delete_order('39')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-02 19:47:05 --> MySQL server has gone away
+ERROR - 2023-04-02 19:47:05 --> MySQL server has gone away
+CRITICAL - 2023-04-02 19:47:05 --> Call to a member function getFirstRow() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1456): CodeIgniter\BaseModel->first()
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(257): App\Controllers\Dashboard->setRafflePercent('7')
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->delete_order('48')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-02 19:47:40 --> MySQL server has gone away
+ERROR - 2023-04-02 19:47:40 --> MySQL server has gone away
+CRITICAL - 2023-04-02 19:47:40 --> Call to a member function getFirstRow() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1456): CodeIgniter\BaseModel->first()
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(257): App\Controllers\Dashboard->setRafflePercent('9')
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->delete_order('39')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-02 19:48:03 --> MySQL server has gone away
+ERROR - 2023-04-02 19:48:03 --> MySQL server has gone away
+CRITICAL - 2023-04-02 19:48:03 --> Call to a member function getFirstRow() on bool
+#0 /home/rifadaho/osincriveissorteios.com.br/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1456): CodeIgniter\BaseModel->first()
+#2 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(257): App\Controllers\Dashboard->setRafflePercent('7')
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->delete_order('48')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-02 20:23:15 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-02 20:23:19 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-02 20:23:21 --> Cannot use object of type stdClass as array
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->raffles()
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}

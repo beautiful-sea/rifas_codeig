@@ -1,0 +1,40 @@
+CRITICAL - 2023-04-14 08:20:18 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-14 08:21:18 --> Use of undefined constant order - assumed 'order' (this will throw an Error in a future version of PHP)
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/rifadaho/...', 1183, Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('24')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 08:28:52 --> Invalid argument supplied for foreach()
+#0 /home/rifadaho/osincriveissorteios.com.br/app/Controllers/Dashboard.php(1186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/rifadaho/...', 1186, Array)
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('18')
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 08:34:30 --> Object of class stdClass could not be converted to string
+#0 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(832): App\Controllers\Dashboard->gerarpdf('21')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-14 09:22:09 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/rifadaho/...')
+#1 /home/rifadaho/osincriveissorteios.com.br/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /home/rifadaho/osincriveissorteios.com.br/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/rifadaho/osincriveissorteios.com.br/index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}

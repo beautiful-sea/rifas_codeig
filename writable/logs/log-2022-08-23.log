@@ -1,0 +1,714 @@
+CRITICAL - 2022-08-23 16:01:34 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\rifas\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\rifas\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\rifas\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\rifas\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(179): session()
+#9 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#12 C:\xampp\htdocs\rifas\app\Controllers\Home.php(54): view('frontend/partia...')
+#13 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#14 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-23 16:01:34 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-23 16:01:48 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\rifas\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\rifas\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\rifas\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\rifas\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(179): session()
+#9 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#12 C:\xampp\htdocs\rifas\app\Controllers\Home.php(128): view('frontend/partia...')
+#13 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-teste')
+#14 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-23 16:01:48 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-23 16:02:11 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\rifas\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\rifas\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\rifas\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\rifas\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(179): session()
+#9 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#12 C:\xampp\htdocs\rifas\app\Controllers\Home.php(128): view('frontend/partia...')
+#13 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-teste')
+#14 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-23 16:02:11 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-23 16:03:46 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\rifas\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\rifas\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\rifas\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\rifas\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(179): session()
+#9 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#12 C:\xampp\htdocs\rifas\app\Controllers\Home.php(128): view('frontend/partia...')
+#13 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-teste')
+#14 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-23 16:03:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-23 16:04:25 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\rifas\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\rifas\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\rifas\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\rifas\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(179): session()
+#9 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#12 C:\xampp\htdocs\rifas\app\Controllers\Home.php(128): view('frontend/partia...')
+#13 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-teste')
+#14 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-23 16:04:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-23 16:05:13 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\rifas\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\rifas\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\rifas\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\rifas\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(179): session()
+#9 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#12 C:\xampp\htdocs\rifas\app\Controllers\Home.php(128): view('frontend/partia...')
+#13 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-teste')
+#14 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-23 16:05:13 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-23 16:05:56 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\rifas\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\rifas\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\rifas\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\rifas\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(179): session()
+#9 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#12 C:\xampp\htdocs\rifas\app\Controllers\Home.php(128): view('frontend/partia...')
+#13 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-teste')
+#14 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-23 16:05:56 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-23 16:05:59 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\rifas\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\rifas\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\rifas\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\rifas\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(179): session()
+#9 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#12 C:\xampp\htdocs\rifas\app\Controllers\Home.php(128): view('frontend/partia...')
+#13 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-teste')
+#14 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-23 16:05:59 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-23 16:06:02 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\rifas\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\rifas\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\rifas\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\rifas\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(179): session()
+#9 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#12 C:\xampp\htdocs\rifas\app\Controllers\Home.php(128): view('frontend/partia...')
+#13 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-teste')
+#14 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-23 16:06:02 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-23 16:06:06 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\rifas\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\rifas\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\rifas\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\rifas\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(179): session()
+#9 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#12 C:\xampp\htdocs\rifas\app\Controllers\Home.php(128): view('frontend/partia...')
+#13 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-teste')
+#14 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-23 16:06:06 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-23 16:06:08 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Head...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\rifas\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\rifas\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\rifas\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\rifas\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\rifas\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\rifas\app\Views\frontend\partials\footer.php(179): session()
+#9 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#12 C:\xampp\htdocs\rifas\app\Controllers\Home.php(128): view('frontend/partia...')
+#13 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->raffle('rifa-de-teste')
+#14 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-23 16:06:08 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\rifas\app\Config\Events.php:32) in C:\xampp\htdocs\rifas\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\rifas\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-23 16:06:53 --> require(C:\xampp\htdocs\rifas\ThirdParty/qrlib.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(710): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 710, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Home.php(710): require()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-23 16:07:09 --> Undefined variable: ordervalue
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(745): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 745, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 16:31:35 --> Undefined property: stdClass::$hash
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(777): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 777, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 16:42:10 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(774): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 774, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 17:33:53 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(781): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 781, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 17:42:44 --> require(C:\xampp\htdocs\rifas\ThirdParty/phpqrcode/qrlib.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(710): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 710, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Home.php(710): require()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-23 17:49:41 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(778): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 778, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 18:19:54 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(784): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 784, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 18:30:05 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(784): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 784, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 18:30:20 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(784): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 784, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 18:30:25 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(784): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 784, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 18:36:57 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(784): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 784, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 18:37:12 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(784): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 784, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 18:37:30 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(784): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 784, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 18:37:39 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(784): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 784, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 18:38:09 --> Undefined property: stdClass::$payment
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(784): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 784, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 18:46:48 --> Class 'QRCode' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-23 18:48:02 --> Class 'QRCode' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-23 18:49:23 --> Class 'QRCode' not found
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-23 18:50:57 --> Undefined variable: payment_response
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(802): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 802, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 19:15:34 --> Constant QR_MODE_NUL already defined
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Constant QR_MOD...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrconst.php(61): define('QR_MODE_NUL', -1)
+#2 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrlib.php(63): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(800): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-23 19:16:07 --> Constant QR_MODE_NUL already defined
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Constant QR_MOD...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrconst.php(61): define('QR_MODE_NUL', -1)
+#2 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrlib.php(63): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(800): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-23 19:16:11 --> Constant QR_MODE_NUL already defined
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Constant QR_MOD...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrconst.php(61): define('QR_MODE_NUL', -1)
+#2 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrlib.php(63): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(800): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-23 19:17:47 --> Constant QR_MODE_NUL already defined
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Constant QR_MOD...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrconst.php(61): define('QR_MODE_NUL', -1)
+#2 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrlib.php(63): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(800): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-23 19:17:51 --> Constant QR_MODE_NUL already defined
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Constant QR_MOD...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrconst.php(61): define('QR_MODE_NUL', -1)
+#2 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrlib.php(63): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(800): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-23 19:18:27 --> Constant QR_MODE_NUL already defined
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Constant QR_MOD...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrconst.php(61): define('QR_MODE_NUL', -1)
+#2 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrlib.php(63): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(800): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-23 19:18:44 --> Constant QR_MODE_NUL already defined
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Constant QR_MOD...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrconst.php(61): define('QR_MODE_NUL', -1)
+#2 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrlib.php(63): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(800): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-23 19:18:54 --> Constant QR_MODE_NUL already defined
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Constant QR_MOD...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrconst.php(61): define('QR_MODE_NUL', -1)
+#2 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrlib.php(63): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(800): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-23 19:19:07 --> Constant QR_MODE_NUL already defined
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Constant QR_MOD...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrconst.php(61): define('QR_MODE_NUL', -1)
+#2 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrlib.php(63): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(800): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-23 19:19:28 --> Constant QR_MODE_NUL already defined
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Constant QR_MOD...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrconst.php(61): define('QR_MODE_NUL', -1)
+#2 C:\xampp\htdocs\rifas\app\ThirdParty\phpqrcode\qrlib.php(63): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\rifas\app\Controllers\Home.php(800): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-23 19:50:07 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->webhook_paggue()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-23 19:51:52 --> Undefined property: stdClass::$external_reference
+#0 C:\xampp\htdocs\rifas\app\Controllers\Api.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Api->webhook_paggue()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-23 20:52:22 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 20:53:34 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 20:56:08 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 20:56:12 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 20:57:35 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 20:57:38 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 20:57:42 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 20:57:44 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 20:58:03 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 20:58:51 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 21:00:20 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(829): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 21:00:30 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 21:06:13 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-23 21:08:35 --> Undefined variable: raffle
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\my_orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/my_ord...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(828): view('frontend/my_ord...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(51): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,201 @@
+CRITICAL - 2022-08-20 09:28:30 --> Undefined index: editor
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(512): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 512, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('22')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-20 09:28:55 --> Undefined index: crop
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(512): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 512, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('22')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-20 09:47:50 --> func_get_arg() expects exactly 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'func_get_arg() ...', 'C:\\xampp\\htdocs...', 273, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\class.fileuploader.php(273): func_get_arg()
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(528): FileUploader::resize('public/images/h...', NULL, NULL, NULL, Array, 90, 270)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('22')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-20 09:48:25 --> func_get_arg() expects parameter 1 to be int, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'func_get_arg() ...', 'C:\\xampp\\htdocs...', 273, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\class.fileuploader.php(273): func_get_arg('resize')
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(528): FileUploader::resize('public/images/h...', NULL, NULL, NULL, Array, 90, 270)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('22')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-20 10:04:08 --> Undefined variable: filename
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(528): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 528, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('22')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-20 10:05:11 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 528, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(528): implode('http://localhos...', '/')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('22')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-20 10:05:31 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 528, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(528): implode('http://localhos...', '/')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('22')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-20 10:05:55 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 528, Array)
+#1 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(528): implode('/', 'http://localhos...')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('22')
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-20 10:08:17 --> Only variables should be passed by reference
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(528): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables ...', 'C:\\xampp\\htdocs...', 528, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('22')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-20 10:21:05 --> Undefined property: stdClass::$images
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 634, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->delete_raffle('22')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-20 10:21:27 --> Undefined property: stdClass::$images
+#0 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(634): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 634, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->delete_raffle('22')
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-20 10:23:13 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\backend\raffles.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(233): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-20 10:25:29 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\backend\raffles.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(233): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-20 10:25:34 --> Undefined offset: 0
+#0 C:\xampp\htdocs\rifas\app\Views\backend\raffles.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('backend/raffles', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(233): view('backend/raffles', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->raffles()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-20 10:31:49 --> imagecreatefrompng(): gd-png: libpng warning: Interlace handling should be turned on when using png_read_image
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrom...', 'C:\\xampp\\htdocs...', 307, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\class.fileuploader.php(307): imagecreatefrompng('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(518): FileUploader::resize('C:\\xampp\\htdocs...', NULL, NULL, 'C:\\xampp\\htdocs...', Array, 90, NULL)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('24')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-20 11:03:07 --> imagecreatefrompng(): gd-png: libpng warning: Interlace handling should be turned on when using png_read_image
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrom...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\class.fileuploader.php(308): imagecreatefrompng('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(518): FileUploader::resize('C:\\xampp\\htdocs...', NULL, NULL, 'C:\\xampp\\htdocs...', NULL, 90, 90)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('24')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-20 11:06:03 --> imagecreatefrompng(): gd-png: libpng warning: Interlace handling should be turned on when using png_read_image
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrom...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\class.fileuploader.php(308): imagecreatefrompng('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(520): FileUploader::resize('C:\\xampp\\htdocs...', NULL, NULL, 'C:\\xampp\\htdocs...', NULL, 90, 90)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('24')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-20 11:10:56 --> imagecreatefrompng(): gd-png: libpng warning: Interlace handling should be turned on when using png_read_image
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrom...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\rifas\app\ThirdParty\class.fileuploader.php(308): imagecreatefrompng('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\app\Controllers\Admin.php(519): FileUploader::resize('C:\\xampp\\htdocs...', NULL, NULL, 'C:\\xampp\\htdocs...', NULL, 90, 90)
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->edit_raffle('26')
+#4 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-20 14:36:11 --> Trying to get property 'transaction_data' of non-object
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(587): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 587, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-20 15:28:08 --> Trying to get property 'transaction_data' of non-object
+#0 C:\xampp\htdocs\rifas\app\Controllers\Home.php(587): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 587, Array)
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->myOrders()
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-20 17:58:38 --> Call to undefined function App\Controllers\slug()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-20 18:01:16 --> Call to undefined function App\Controllers\slug()
+#0 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Admin->add_raffle()
+#1 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-20 18:04:41 --> Undefined variable: metas
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\partials\header.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(24): view('frontend/partia...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-20 18:04:47 --> Undefined variable: metas
+#0 C:\xampp\htdocs\rifas\app\Views\frontend\partials\header.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\rifas\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rifas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rifas\system\Common.php(1089): CodeIgniter\View\View->render('frontend/partia...', Array, true)
+#4 C:\xampp\htdocs\rifas\app\Controllers\Home.php(24): view('frontend/partia...', Array)
+#5 C:\xampp\htdocs\rifas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\rifas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\rifas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rifas\index.php(41): CodeIgniter\CodeIgniter->run()
+#9 {main}
